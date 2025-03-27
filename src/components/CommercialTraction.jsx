@@ -22,6 +22,7 @@ const CommercialTraction = () => {
         </div>
 
         <motion.div
+          ref={ref}
           className="card p-8"
           initial={{ opacity: 0, y: 20 }}
           animate={inView ? { opacity: 1, y: 0 } : { opacity: 0, y: 20 }}
@@ -60,12 +61,33 @@ const CommercialTraction = () => {
                         <strong>Organic Growth</strong> - Letting word-of-mouth and user satisfaction drive our expansion
                       </div>
                     </li>
+                    <li className="flex items-start">
+                      <div className="flex-shrink-0 h-6 w-6 rounded-full bg-primary-100 flex items-center justify-center mr-3 mt-0.5">
+                        <svg className="h-4 w-4 text-primary-600" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
+                        </svg>
+                      </div>
+                      <div>
+                        <strong>Market-Led Development</strong> - Building features based on real-world usage and needs
+                      </div>
+                    </li>
                   </ul>
                 </div>
                 
                 <p>
                   <strong>History shows us that transformative platforms emerge when powerful technology becomes simple to use.</strong> We're creating the canvas and letting our users paint the picture. We expect users to create applications we haven't even imagined yet.
                 </p>
+                
+                <p>
+                  This democratization of app creation technology follows the same pattern that drove revolutions in other fields:
+                </p>
+                
+                <ul className="space-y-2 mt-4">
+                  <li>Publishing (blogs made everyone a potential author)</li>
+                  <li>Video (YouTube made everyone a potential filmmaker)</li>
+                  <li>Photography (Instagram made everyone a potential photographer)</li>
+                  <li>And now with ZAPT: Apps (making everyone a potential app creator)</li>
+                </ul>
               </div>
             </div>
             
@@ -104,6 +126,13 @@ const CommercialTraction = () => {
                       <p className="text-sm text-gray-700">Scale with user satisfaction</p>
                     </div>
                     
+                    <div className="flex items-center gap-3">
+                      <div className="flex-shrink-0 w-10 h-10 rounded-full bg-gray-200 flex items-center justify-center text-xs font-medium text-gray-700">
+                        4
+                      </div>
+                      <p className="text-sm text-gray-700">Expand through word-of-mouth</p>
+                    </div>
+                    
                     <div className="pt-4 mt-4 border-t border-gray-100">
                       <p className="text-sm text-gray-600 italic">
                         "The true power comes from empowering creators and following their lead."
@@ -111,6 +140,35 @@ const CommercialTraction = () => {
                     </div>
                   </div>
                 </div>
+              </div>
+            </div>
+          </div>
+          
+          <div className="mt-10 pt-8 border-t border-gray-200">
+            <h4 className="text-xl font-bold mb-6">The Power of Technology Democratization</h4>
+            <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+              <div className="bg-white p-6 rounded-lg border border-gray-200 shadow-sm">
+                <div className="text-3xl mb-4">🌱</div>
+                <h5 className="text-lg font-bold mb-2">Lower Barriers</h5>
+                <p className="text-gray-600">
+                  By removing technical complexity, we allow anyone with an idea to bring it to life regardless of their background.
+                </p>
+              </div>
+              
+              <div className="bg-white p-6 rounded-lg border border-gray-200 shadow-sm">
+                <div className="text-3xl mb-4">💡</div>
+                <h5 className="text-lg font-bold mb-2">Diverse Innovation</h5>
+                <p className="text-gray-600">
+                  When technology is accessible to all, innovation comes from diverse perspectives, not just technical experts.
+                </p>
+              </div>
+              
+              <div className="bg-white p-6 rounded-lg border border-gray-200 shadow-sm">
+                <div className="text-3xl mb-4">🚀</div>
+                <h5 className="text-lg font-bold mb-2">Mass Market Impact</h5>
+                <p className="text-gray-600">
+                  By making app creation as easy as using a social media platform, we can reach and empower billions of potential creators.
+                </p>
               </div>
             </div>
           </div>
