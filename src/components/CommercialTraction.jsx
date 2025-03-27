@@ -36,6 +36,9 @@ const CommercialTraction = () => {
                 </p>
                 
                 <div className="bg-white p-6 rounded-lg border border-gray-200 my-6">
+                  <p className="mb-4">
+                    <strong>We aim to be user-led, like YouTube was, in going to market.</strong> Rather than dictating how people should use our platform, we're providing the tools and letting our users show us what's possible.
+                  </p>
                   <ul className="space-y-4">
                     <li className="flex items-start">
                       <div className="flex-shrink-0 h-6 w-6 rounded-full bg-primary-100 flex items-center justify-center mr-3 mt-0.5">
