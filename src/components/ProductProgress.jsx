@@ -35,7 +35,7 @@ const ProductProgress = () => {
             <div className="w-full">
               <h3 className="text-2xl font-bold mb-5 text-white text-center">How It Works</h3>
               <p className="text-gray-300 mb-6 leading-relaxed text-center mx-auto max-w-3xl">
-                Just like YouTube revolutionized video creation with a simple "upload" button, we've made app creation as simple as describing what you want.
+                We've made app creation as simple as describing what you want, revolutionizing how digital tools are created with a straightforward approach.
               </p>
               
               <div className="flex flex-wrap gap-4 mt-8 justify-center">

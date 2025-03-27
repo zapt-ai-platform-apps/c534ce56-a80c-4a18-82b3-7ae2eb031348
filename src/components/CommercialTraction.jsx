@@ -38,7 +38,7 @@ const CommercialTraction = () => {
                 
                 <div className="bg-white/5 backdrop-blur-sm p-4 md:p-6 rounded-lg border border-primary-500/20 my-6">
                   <p className="mb-4">
-                    <strong className="text-white">Our approach is user-led, like YouTube.</strong> We provide the tools and let users show us what's possible.
+                    <strong className="text-white">Our approach is user-led and community-driven.</strong> We provide the tools and let users show us what's possible.
                   </p>
                   <ul className="space-y-4">
                     <li className="flex items-start">
@@ -84,8 +84,8 @@ const CommercialTraction = () => {
                 
                 <ul className="space-y-2 mt-4 text-gray-300">
                   <li>Publishing (blogs made everyone a potential author)</li>
-                  <li>Video (YouTube made everyone a potential filmmaker)</li>
-                  <li>Photography (Instagram made everyone a potential photographer)</li>
+                  <li>Video (platforms made everyone a potential filmmaker)</li>
+                  <li>Photography (social sharing made everyone a potential photographer)</li>
                   <li>And now with ZAPT: Apps (making everyone a potential app creator)</li>
                 </ul>
               </div>

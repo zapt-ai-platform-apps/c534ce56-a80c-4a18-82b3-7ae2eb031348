@@ -38,10 +38,10 @@ const ExecutiveSummary = () => {
                 <h3 className="text-2xl font-bold mb-6 text-white">Our AI Platform Has Launched</h3>
                 <div className="prose prose-lg text-gray-300 max-w-none">
                   <p className="mb-4">
-                    <strong className="text-white">We're live!</strong> The ZAPT AI app creation platform has officially launched, and we're at the beginning of what we believe is our "YouTube moment" - the revolutionary period where we'll transform app creation the way YouTube revolutionized video.
+                    <strong className="text-white">We're live!</strong> The ZAPT AI app creation platform has officially launched, and we're at the beginning of what we believe is a transformative era for app creation and technology access.
                   </p>
                   <p className="mb-4">
-                    Just as YouTube put video creation in everyone's hands, ZAPT is making app creation accessible to anyone, regardless of technical background. And we're taking these capabilities to a mass market.
+                    Our platform is making app creation accessible to anyone, regardless of technical background. And we're taking these capabilities to a mass market.
                   </p>
                   <p>
                     This update itself demonstrates our philosophy - instead of sending a PDF, we've created an <span className="font-medium text-primary-300">interactive app experience</span> built on our own platform.
