@@ -29,7 +29,7 @@ const Navbar = () => {
   }, []);
   
   return (
-    <nav className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${scrolled ? 'bg-white/95 shadow-md backdrop-blur-sm py-3' : 'bg-transparent py-5'}`}>
+    <nav className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${scrolled ? 'bg-dark/90 backdrop-blur-md py-3 border-b border-white/5' : 'bg-transparent py-5'}`}>
       <div className="container-custom flex justify-between items-center">
         <motion.div 
           className="flex items-center"
@@ -42,10 +42,10 @@ const Navbar = () => {
             alt="ZAPT Logo" 
             className="h-9 w-9 mr-2"
           />
-          <span className="text-xl font-bold gradient-text">ZAPT</span>
+          <span className="text-xl font-bold text-white">ZAPT</span>
         </motion.div>
         
-        <div className="hidden md:flex space-x-6 lg:space-x-8">
+        <div className="hidden md:flex space-x-8 lg:space-x-10">
           {navLinks.map((link, index) => (
             <NavLink
               key={index}
@@ -58,7 +58,7 @@ const Navbar = () => {
         </div>
         
         <button
-          className="md:hidden text-gray-700 focus:outline-none cursor-pointer"
+          className="md:hidden text-white focus:outline-none cursor-pointer"
           onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
           aria-label="Toggle mobile menu"
         >
@@ -72,14 +72,14 @@ const Navbar = () => {
       <AnimatePresence>
         {mobileMenuOpen && (
           <motion.div
-            className="md:hidden bg-white absolute top-full left-0 right-0 shadow-md overflow-hidden"
+            className="md:hidden bg-dark/95 backdrop-blur-lg absolute top-full left-0 right-0 border-b border-white/5"
             initial={{ height: 0, opacity: 0 }}
             animate={{ height: 'auto', opacity: 1 }}
             exit={{ height: 0, opacity: 0 }}
             transition={{ duration: 0.3 }}
           >
-            <div className="container-custom py-3">
-              <div className="flex flex-col space-y-3">
+            <div className="container-custom py-5">
+              <div className="flex flex-col space-y-4">
                 {navLinks.map((link, index) => (
                   <motion.div
                     key={index}
@@ -93,7 +93,7 @@ const Navbar = () => {
                       smooth={true}
                       offset={-70}
                       duration={500}
-                      className="text-gray-700 hover:text-primary-600 block py-2 transition-colors font-medium cursor-pointer"
+                      className="text-white/80 hover:text-white block py-2 transition-colors font-medium cursor-pointer"
                       onClick={() => setMobileMenuOpen(false)}
                     >
                       {link.label}
@@ -122,11 +122,11 @@ const NavLink = ({ to, children, delay = 0 }) => (
       smooth={true}
       offset={-70}
       duration={500}
-      className="relative text-gray-700 hover:text-primary-600 cursor-pointer transition-colors font-medium group"
-      activeClass="text-primary-600"
+      className="relative text-white/80 hover:text-white cursor-pointer transition-colors font-medium group"
+      activeClass="text-white"
     >
       <span>{children}</span>
-      <span className="absolute bottom-0 left-0 w-0 h-0.5 bg-primary-600 transition-all duration-300 group-hover:w-full"></span>
+      <span className="absolute bottom-0 left-0 w-0 h-0.5 bg-gradient-to-r from-primary-500 to-secondary-500 transition-all duration-300 group-hover:w-full"></span>
     </Link>
   </motion.div>
 );

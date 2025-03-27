@@ -63,14 +63,14 @@ const AppShowcase = () => {
   };
   
   return (
-    <section className="section bg-white" id="showcase">
+    <section className="section luxury-bg dotted-pattern" id="showcase">
       <div className="container-custom">
         <div className="text-center mb-16">
-          <span className="inline-block px-4 py-1 bg-secondary/10 rounded-full text-secondary-600 text-sm font-medium mb-4">
+          <span className="inline-block px-4 py-1 bg-white/5 backdrop-blur-sm rounded-full text-primary-300 text-sm font-medium mb-4 border border-primary-500/20">
             Real World Applications
           </span>
-          <h2 className="heading-lg mb-4">Customer App Showcase</h2>
-          <p className="text-lg text-gray-600 max-w-3xl mx-auto">
+          <h2 className="heading-lg mb-4 text-white">Customer App Showcase</h2>
+          <p className="text-lg text-gray-300 max-w-3xl mx-auto">
             A glimpse at what's already being created on our platform
           </p>
         </div>
@@ -100,9 +100,9 @@ const AppShowcase = () => {
           <div className="max-w-3xl mx-auto">
             <div className="card-3d">
               <div className="card-3d-inner">
-                <div className="card p-8 bg-gradient-to-r from-primary-50 to-white">
-                  <h3 className="text-2xl font-bold mb-4">The App Revolution Has Begun</h3>
-                  <p className="text-lg text-gray-700 mb-6">
+                <div className="premium-card p-8 rounded-xl border border-white/10">
+                  <h3 className="text-2xl font-bold mb-4 text-white">The App Revolution Has Begun</h3>
+                  <p className="text-lg text-gray-300 mb-6">
                     Our platform has enabled the creation of diverse applications across multiple industries, with minimal technical expertise required.
                   </p>
                 </div>
@@ -118,12 +118,12 @@ const AppShowcase = () => {
 const AppCard = ({ app, variants }) => {
   return (
     <motion.div 
-      className="card overflow-hidden h-full flex flex-col app-card shadow-lg"
+      className="premium-card overflow-hidden h-full flex flex-col hover-3d rounded-xl border border-white/10"
       variants={variants}
     >
-      <div className="h-60 overflow-hidden bg-gray-100 flex items-center justify-center">
+      <div className="h-60 overflow-hidden bg-white/5 flex items-center justify-center">
         {/* Using icons instead of potentially broken images */}
-        <div className="text-6xl text-primary-400">
+        <div className="text-6xl">
           {app.title === "Administrate" && "📋"}
           {app.title === "Parking Disputer" && "🚗"}
           {app.title === "Football Subs" && "⚽"}
@@ -132,11 +132,11 @@ const AppCard = ({ app, variants }) => {
       </div>
       <div className="p-6 flex flex-col flex-grow">
         <div className="flex justify-between items-start mb-3">
-          <h3 className="text-xl font-bold">{app.title}</h3>
-          <span className="text-xs bg-primary-100 text-primary-700 px-2 py-1 rounded-full">Customer App</span>
+          <h3 className="text-xl font-bold text-white">{app.title}</h3>
+          <span className="text-xs bg-primary-500/20 text-primary-300 px-2 py-1 rounded-full">Customer App</span>
         </div>
-        <p className="text-gray-600 mb-2">{app.description}</p>
-        <p className="text-sm text-gray-500 mb-4 flex items-center">
+        <p className="text-gray-300 mb-2">{app.description}</p>
+        <p className="text-sm text-gray-400 mb-4 flex items-center">
           <svg xmlns="http://www.w3.org/2000/svg" className="h-4 w-4 mr-1" fill="none" viewBox="0 0 24 24" stroke="currentColor">
             <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 21V5a2 2 0 00-2-2H7a2 2 0 00-2 2v16m14 0h2m-2 0h-5m-9 0H3m2 0h5M9 7h1m-1 4h1m4-4h1m-1 4h1m-5 10v-5a1 1 0 011-1h2a1 1 0 011 1v5m-4 0h4" />
           </svg>
@@ -145,7 +145,7 @@ const AppCard = ({ app, variants }) => {
         
         <div className="mt-2 mb-4 flex flex-wrap gap-2">
           {app.features.map((feature, idx) => (
-            <span key={idx} className="text-xs bg-gray-100 text-gray-700 px-2 py-1 rounded">
+            <span key={idx} className="text-xs bg-white/5 text-gray-300 px-2 py-1 rounded border border-white/10">
               {feature}
             </span>
           ))}
@@ -156,7 +156,7 @@ const AppCard = ({ app, variants }) => {
             href={app.url} 
             target="_blank" 
             rel="noopener noreferrer"
-            className="text-primary-500 font-medium hover:text-primary-600 app-link inline-flex items-center"
+            className="text-primary-300 font-medium hover:text-primary-200 app-link inline-flex items-center"
           >
             View App
             <svg xmlns="http://www.w3.org/2000/svg" className="h-4 w-4 ml-1" fill="none" viewBox="0 0 24 24" stroke="currentColor">

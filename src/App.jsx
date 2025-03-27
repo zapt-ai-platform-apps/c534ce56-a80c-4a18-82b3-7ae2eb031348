@@ -33,7 +33,7 @@ export default function App() {
   }, []);
 
   return (
-    <div className="min-h-screen flex flex-col bg-light">
+    <div className="min-h-screen flex flex-col luxury-bg text-white">
       <Navbar />
       
       <main className="flex-grow">
