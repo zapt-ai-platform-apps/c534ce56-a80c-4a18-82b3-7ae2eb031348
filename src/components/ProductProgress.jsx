@@ -4,25 +4,25 @@ import { motion } from 'framer-motion';
 
 const milestones = [
   {
-    date: "Q1 2024",
+    date: "Just Launched",
     title: "Platform Launch",
     description: "Successfully launched the ZAPT platform with core AI app generation capabilities.",
     completed: true
   },
   {
-    date: "Q2 2024",
+    date: "Coming Soon",
     title: "Enterprise Features",
-    description: "Added enterprise-grade security, team collaboration, and customization options.",
-    completed: true
+    description: "Enterprise-grade security, team collaboration, and customization options.",
+    completed: false
   },
   {
-    date: "Q2 2024",
+    date: "Coming Soon",
     title: "API Ecosystem",
     description: "Expanded integration capabilities with major third-party services and APIs.",
     completed: false
   },
   {
-    date: "Q3 2024",
+    date: "Coming Soon",
     title: "Advanced Analytics",
     description: "Enhanced app analytics and performance monitoring tools for deeper insights.",
     completed: false
@@ -41,7 +41,7 @@ const ProductProgress = () => {
         <div className="text-center mb-12">
           <h2 className="heading-lg mb-4">Product Progress</h2>
           <p className="text-lg text-gray-600 max-w-3xl mx-auto">
-            Recent developments and platform improvements
+            Our journey has just begun
           </p>
         </div>
 
@@ -82,27 +82,27 @@ const ProductProgress = () => {
             animate={inView ? { opacity: 1, x: 0 } : { opacity: 0, x: 20 }}
             transition={{ duration: 0.7 }}
           >
-            <h3 className="text-xl font-bold mb-4">Recent Platform Enhancements</h3>
+            <h3 className="text-xl font-bold mb-4">Platform Features</h3>
             <ul className="space-y-4">
               <FeatureItem
-                title="Enhanced AI Understanding"
-                description="Improved our AI's ability to interpret complex app requirements and generate more sophisticated code structures."
+                title="Advanced AI Understanding"
+                description="Our AI interprets complex app requirements and generates sophisticated code structures."
               />
               <FeatureItem
-                title="Advanced Database Integration"
-                description="Added support for complex data relationships and advanced queries while maintaining our no-code approach."
+                title="Database Integration"
+                description="Support for complex data relationships and advanced queries while maintaining our no-code approach."
               />
               <FeatureItem
                 title="Custom UI Components"
-                description="Expanded library of customizable UI components for more visually distinctive applications."
+                description="Extensive library of customizable UI components for visually distinctive applications."
               />
               <FeatureItem
                 title="Performance Optimization"
-                description="Reduced app load times by 40% through improved code generation and resource optimization."
+                description="Optimized code generation and resource management for fast-loading applications."
               />
               <FeatureItem
-                title="Enterprise SSO Integration"
-                description="Added secure single sign-on options for enterprise customers using major identity providers."
+                title="Security & Authentication"
+                description="Built-in authentication options and security best practices for all generated apps."
               />
             </ul>
           </motion.div>
@@ -116,32 +116,20 @@ const ProductProgress = () => {
         >
           <div className="flex flex-col md:flex-row items-center">
             <div className="w-full md:w-2/3 mb-6 md:mb-0 md:pr-6">
-              <h3 className="text-xl font-bold mb-3">Platform Reliability</h3>
+              <h3 className="text-xl font-bold mb-3">Our YouTube Moment</h3>
               <p className="text-gray-700 mb-4">
-                Our platform has maintained 99.97% uptime this quarter, with zero data loss incidents. Average response time for app generation has decreased from 3.5 minutes to 1.2 minutes, representing a 65% improvement.
+                We believe we're at the beginning of something transformative - similar to YouTube's early days before it revolutionized video content creation. Just as YouTube made everyone a potential creator, ZAPT will make everyone a potential app developer.
               </p>
-              <div className="flex space-x-6">
-                <div>
-                  <div className="text-2xl font-bold text-primary-600">99.97%</div>
-                  <div className="text-sm text-gray-500">Uptime</div>
-                </div>
-                <div>
-                  <div className="text-2xl font-bold text-primary-600">1.2 min</div>
-                  <div className="text-sm text-gray-500">Avg. Response</div>
-                </div>
-                <div>
-                  <div className="text-2xl font-bold text-primary-600">0</div>
-                  <div className="text-sm text-gray-500">Data Loss Events</div>
-                </div>
-              </div>
+              <p className="text-gray-700">
+                Our platform is now live, and while it's early days, we're focused on building an experience that will scale to millions of users globally and fundamentally change how apps are created.
+              </p>
             </div>
             <div className="w-full md:w-1/3">
               <div className="rounded-lg overflow-hidden border border-gray-200 bg-white">
-                <img src="https://images.unsplash.com/photo-1501389040983-5c22cb186487?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w2NjQ4Nzh8MHwxfHNlYXJjaHw5fHx0ZWNobmljYWwlMjBkYXNoYm9hcmQlMjBzaG93aW5nJTIwc3lzdGVtJTIwcGVyZm9ybWFuY2UlMjBtZXRyaWNzJTIwYW5kJTIwdXB0aW1lJTIwc3RhdGlzdGljc3xlbnwwfHx8fDE3NDMwOTkzMDh8MA&ixlib=rb-4.0.3&q=80&w=1080" 
-                   
-                  alt="System performance dashboard" 
+                <img src="https://images.unsplash.com/photo-1559028012-481c04fa702d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w2NjQ4Nzh8MHwxfHNlYXJjaHwxfHxsYXVuY2glMjBvZiUyMGElMjBuZXclMjBwbGF0Zm9ybXxlbnwwfHx8fDE3NDMwOTkzMDh8MA&ixlib=rb-4.0.3&q=80&w=1080" 
+                  alt="Platform launch concept" 
                   className="w-full"
-                  data-image-request="technical dashboard showing system performance metrics and uptime statistics"
+                  data-image-request="exciting platform launch concept with rocket imagery symbolizing the beginning of something revolutionary"
                 />
               </div>
             </div>

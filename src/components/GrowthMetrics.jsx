@@ -2,35 +2,26 @@ import React from 'react';
 import { useInView } from 'react-intersection-observer';
 import { motion } from 'framer-motion';
 
-const metrics = [
+const visionPoints = [
   {
-    title: "Apps Created",
-    current: "1,240",
-    growth: "+42%",
-    period: "past 90 days",
-    color: "from-primary-400 to-primary-600"
+    title: "Scale",
+    icon: "🚀",
+    description: "Our goal is to reach millions of users worldwide, making app creation accessible to everyone regardless of technical background."
   },
   {
-    title: "Monthly Revenue",
-    current: "$45K",
-    growth: "+22%",
-    period: "month-over-month",
-    color: "from-secondary-400 to-secondary-600"
+    title: "Simplicity",
+    icon: "🎯",
+    description: "We're committed to maintaining an intuitive interface that allows complete beginners to create powerful apps within minutes."
   },
   {
-    title: "Active Users",
-    current: "520",
-    growth: "+28%",
-    period: "past quarter",
-    color: "from-emerald-400 to-emerald-600"
+    title: "Impact",
+    icon: "💡",
+    description: "Just as YouTube revolutionized video content creation, we aim to fundamentally transform how software is built and deployed."
   },
   {
-    title: "Time to Deploy",
-    current: "1.2m",
-    growth: "-65%",
-    period: "improvement",
-    color: "from-amber-400 to-amber-600",
-    isImprovement: true
+    title: "Innovation",
+    icon: "⚡",
+    description: "We'll continuously push the boundaries of what's possible with AI to make app creation faster and more powerful."
   }
 ];
 
@@ -63,9 +54,9 @@ const GrowthMetrics = () => {
     <section className="section bg-white" id="metrics">
       <div className="container-custom">
         <div className="text-center mb-12">
-          <h2 className="heading-lg mb-4">Growth Metrics</h2>
+          <h2 className="heading-lg mb-4">Our Vision</h2>
           <p className="text-lg text-gray-600 max-w-3xl mx-auto">
-            Key performance indicators showing our platform's growth trajectory
+            How we plan to revolutionize app creation globally
           </p>
         </div>
 
@@ -76,122 +67,44 @@ const GrowthMetrics = () => {
           initial="hidden"
           animate={inView ? "visible" : "hidden"}
         >
-          {metrics.map((metric, index) => (
-            <MetricCard
+          {visionPoints.map((point, index) => (
+            <VisionCard
               key={index}
-              metric={metric}
+              point={point}
               variants={itemVariants}
             />
           ))}
         </motion.div>
 
-        <div className="mt-16 grid grid-cols-1 lg:grid-cols-2 gap-8">
+        <div className="mt-16">
           <motion.div
             className="card p-6"
             initial={{ opacity: 0, y: 20 }}
             animate={inView ? { opacity: 1, y: 0 } : { opacity: 0, y: 20 }}
             transition={{ duration: 0.7, delay: 0.3 }}
           >
-            <h3 className="text-xl font-bold mb-4">User Growth Trajectory</h3>
-            <div className="bg-white p-4 rounded-lg border border-gray-200">
-              <img src="https://images.unsplash.com/photo-1650959828226-f9d53a7c1f64?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w2NjQ4Nzh8MHwxfHNlYXJjaHw4fHxsaW5lJTIwY2hhcnQlMjBzaG93aW5nJTIwZXhwb25lbnRpYWwlMjB1c2VyJTIwZ3Jvd3RoJTIwb3ZlciUyMDYlMjBtb250aHMlMjB3aXRoJTIwYW5ub3RhdGlvbnMlMjBmb3IlMjBrZXklMjBtaWxlc3RvbmVzfGVufDB8fHx8MTc0MzA5OTg3N3ww&ixlib=rb-4.0.3&q=80&w=1080" 
-                 
-                alt="User growth chart showing upward trend" 
-                className="w-full h-64 object-contain"
-                data-image-request="line chart showing exponential user growth over 6 months with annotations for key milestones"
-              />
-            </div>
-            <div className="mt-4 grid grid-cols-2 gap-6">
-              <div>
-                <h4 className="font-medium text-gray-700 mb-1">Acquisition Channels</h4>
-                <ul className="space-y-1 text-sm">
-                  <li className="flex justify-between">
-                    <span className="text-gray-600">Direct</span>
-                    <span className="font-medium">38%</span>
-                  </li>
-                  <li className="flex justify-between">
-                    <span className="text-gray-600">Partnerships</span>
-                    <span className="font-medium">27%</span>
-                  </li>
-                  <li className="flex justify-between">
-                    <span className="text-gray-600">Organic Search</span>
-                    <span className="font-medium">22%</span>
-                  </li>
-                  <li className="flex justify-between">
-                    <span className="text-gray-600">Social Media</span>
-                    <span className="font-medium">13%</span>
-                  </li>
+            <h3 className="text-xl font-bold mb-4">The YouTube Parallel</h3>
+            <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
+              <div className="prose prose-lg text-gray-700">
+                <p>
+                  Just as YouTube revolutionized video content creation by empowering millions of people to become creators, ZAPT aims to transform app development by enabling anyone to build powerful applications without coding knowledge.
+                </p>
+                <ul>
+                  <li><strong>Democratization:</strong> Making advanced technology accessible to everyone</li>
+                  <li><strong>Massive scale:</strong> Serving millions of users globally</li>
+                  <li><strong>Creator economy:</strong> Empowering people to build solutions and businesses</li>
+                  <li><strong>Network effects:</strong> Growing stronger as more people join and contribute</li>
                 </ul>
+                <p>
+                  We're at the beginning of this journey, but our vision is clear - to become the platform where millions of people create and deploy apps that solve problems, generate value, and transform industries.
+                </p>
               </div>
-              <div>
-                <h4 className="font-medium text-gray-700 mb-1">User Retention</h4>
-                <ul className="space-y-1 text-sm">
-                  <li className="flex justify-between">
-                    <span className="text-gray-600">30-day</span>
-                    <span className="font-medium">86%</span>
-                  </li>
-                  <li className="flex justify-between">
-                    <span className="text-gray-600">60-day</span>
-                    <span className="font-medium">78%</span>
-                  </li>
-                  <li className="flex justify-between">
-                    <span className="text-gray-600">90-day</span>
-                    <span className="font-medium">72%</span>
-                  </li>
-                </ul>
-              </div>
-            </div>
-          </motion.div>
-
-          <motion.div
-            className="card p-6"
-            initial={{ opacity: 0, y: 20 }}
-            animate={inView ? { opacity: 1, y: 0 } : { opacity: 0, y: 20 }}
-            transition={{ duration: 0.7, delay: 0.4 }}
-          >
-            <h3 className="text-xl font-bold mb-4">Revenue Performance</h3>
-            <div className="bg-white p-4 rounded-lg border border-gray-200">
-              <img src="https://images.unsplash.com/photo-1523567830207-96731740fa71?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w2NjQ4Nzh8MHwxfHNlYXJjaHwxfHxiYXIlMjBjaGFydCUyMHNob3dpbmclMjBtb250aGx5JTIwcmV2ZW51ZSUyMGdyb3d0aCUyMHdpdGglMjB0cmVuZCUyMGxpbmUlMjBhbmQlMjBmb3JlY2FzdCUyMGZvciUyMG5leHQlMjBxdWFydGVyfGVufDB8fHx8MTc0MzA5OTg3OHww&ixlib=rb-4.0.3&q=80&w=1080" 
-                 
-                alt="Revenue growth chart" 
-                className="w-full h-64 object-contain"
-                data-image-request="bar chart showing monthly revenue growth with trend line and forecast for next quarter"
-              />
-            </div>
-            <div className="mt-4 grid grid-cols-2 gap-6">
-              <div>
-                <h4 className="font-medium text-gray-700 mb-1">Revenue Breakdown</h4>
-                <ul className="space-y-1 text-sm">
-                  <li className="flex justify-between">
-                    <span className="text-gray-600">Platform Licenses</span>
-                    <span className="font-medium">65%</span>
-                  </li>
-                  <li className="flex justify-between">
-                    <span className="text-gray-600">Usage Billing</span>
-                    <span className="font-medium">22%</span>
-                  </li>
-                  <li className="flex justify-between">
-                    <span className="text-gray-600">Support Packages</span>
-                    <span className="font-medium">13%</span>
-                  </li>
-                </ul>
-              </div>
-              <div>
-                <h4 className="font-medium text-gray-700 mb-1">Financial Metrics</h4>
-                <ul className="space-y-1 text-sm">
-                  <li className="flex justify-between">
-                    <span className="text-gray-600">Gross Margin</span>
-                    <span className="font-medium">82%</span>
-                  </li>
-                  <li className="flex justify-between">
-                    <span className="text-gray-600">CAC Payback</span>
-                    <span className="font-medium">5.2 mo</span>
-                  </li>
-                  <li className="flex justify-between">
-                    <span className="text-gray-600">LTV/CAC Ratio</span>
-                    <span className="font-medium">4.8x</span>
-                  </li>
-                </ul>
+              <div className="bg-white p-4 rounded-lg border border-gray-200">
+                <img src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w2NjQ4Nzh8MHwxfHNlYXJjaHwxfHxnbG9iYWwlMjBwbGF0Zm9ybSUyMGdyb3d0aCUyMHZpc2lvbiUyMGRpYWdyYW18ZW58MHx8fHwxNzQzMDk5ODc3fDA&ixlib=rb-4.0.3&q=80&w=1080" 
+                  alt="Platform growth vision" 
+                  className="w-full h-64 object-contain"
+                  data-image-request="inspiring visual showing global platform growth vision with digital connections reaching worldwide"
+                />
               </div>
             </div>
           </motion.div>
@@ -201,23 +114,15 @@ const GrowthMetrics = () => {
   );
 };
 
-const MetricCard = ({ metric, variants }) => {
+const VisionCard = ({ point, variants }) => {
   return (
     <motion.div
       className="card p-6 flex flex-col h-full"
       variants={variants}
     >
-      <h3 className="text-lg font-medium text-gray-600 mb-1">{metric.title}</h3>
-      <div className="text-3xl sm:text-4xl font-bold mb-2 stat-counter">{metric.current}</div>
-      <div className="flex items-center mt-auto">
-        <span className={`inline-block px-2 py-1 text-xs font-medium rounded-full ${metric.isImprovement ? 'bg-green-100 text-green-800' : 'bg-primary-100 text-primary-700'}`}>
-          {metric.growth}
-        </span>
-        <span className="text-xs text-gray-500 ml-2">{metric.period}</span>
-      </div>
-      <div className="mt-4 w-full h-1 bg-gray-100 rounded-full overflow-hidden">
-        <div className={`h-full rounded-full bg-gradient-to-r ${metric.color}`} style={{ width: '80%' }}></div>
-      </div>
+      <div className="text-4xl mb-4">{point.icon}</div>
+      <h3 className="text-xl font-bold mb-2">{point.title}</h3>
+      <p className="text-gray-600 flex-grow">{point.description}</p>
     </motion.div>
   );
 };

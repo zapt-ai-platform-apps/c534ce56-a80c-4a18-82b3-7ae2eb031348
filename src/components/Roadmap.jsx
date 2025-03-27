@@ -4,7 +4,7 @@ import { motion } from 'framer-motion';
 
 const roadmapItems = [
   {
-    quarter: "Q3 2024",
+    quarter: "Coming Soon",
     title: "Enterprise Expansion",
     description: "Scale our enterprise customer base with dedicated account management and enhanced security features.",
     initiatives: [
@@ -15,7 +15,7 @@ const roadmapItems = [
     ]
   },
   {
-    quarter: "Q3 2024",
+    quarter: "Coming Soon",
     title: "Advanced AI Capabilities",
     description: "Enhance our AI to support more complex applications and specialized domains.",
     initiatives: [
@@ -26,7 +26,7 @@ const roadmapItems = [
     ]
   },
   {
-    quarter: "Q4 2024",
+    quarter: "Future Phase",
     title: "Platform Ecosystem",
     description: "Build a thriving community of partners, developers, and app creators.",
     initiatives: [
@@ -37,7 +37,7 @@ const roadmapItems = [
     ]
   },
   {
-    quarter: "Q1 2025",
+    quarter: "Future Phase",
     title: "International Expansion",
     description: "Extend our reach to key global markets with localized support.",
     initiatives: [
@@ -80,7 +80,7 @@ const Roadmap = () => {
         <div className="text-center mb-12">
           <h2 className="heading-lg mb-4">Strategic Roadmap</h2>
           <p className="text-lg text-gray-600 max-w-3xl mx-auto">
-            Our vision and plans for the coming quarters
+            Our vision and plans for the future
           </p>
         </div>
 

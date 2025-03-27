@@ -8,7 +8,6 @@ import CommercialTraction from '@/components/CommercialTraction';
 import AppShowcase from '@/components/AppShowcase';
 import MarketPosition from '@/components/MarketPosition';
 import Roadmap from '@/components/Roadmap';
-import Footer from '@/components/Footer';
 import ZaptBadge from '@/components/ZaptBadge';
 
 export default function App() {
@@ -50,7 +49,6 @@ export default function App() {
         <Roadmap />
       </main>
       
-      <Footer />
       <ZaptBadge />
     </div>
   );

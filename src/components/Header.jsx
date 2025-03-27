@@ -17,7 +17,7 @@ const Header = () => {
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.5 }}
           >
-            Investor Update • Q{quarter} {year}
+            Platform Launch Announcement • Q{quarter} {year}
           </motion.div>
           
           <motion.h1 
@@ -26,7 +26,7 @@ const Header = () => {
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.7 }}
           >
-            <span className="gradient-text">Building The Future of App Creation</span>
+            <span className="gradient-text">Building The YouTube of App Creation</span>
           </motion.h1>
           
           <motion.p 
@@ -35,7 +35,7 @@ const Header = () => {
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.7, delay: 0.1 }}
           >
-            An update on our commercial traction, product development, and market expansion
+            We've just launched our revolutionary AI platform that will democratize app development for everyone
           </motion.p>
         </div>
       </div>
