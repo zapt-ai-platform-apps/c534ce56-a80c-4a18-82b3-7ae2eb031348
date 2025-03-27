@@ -80,7 +80,7 @@ const Header = () => {
               transform: `translateX(${mousePosition.x * 10}px) translateY(${mousePosition.y * 10}px)`,
             }}
           >
-            <span className="gradient-text">Transforming the World with Apps for Everything</span>
+            <span className="gradient-text">We're Live! Our YouTube Moment is Here</span>
           </motion.h1>
           
           <motion.p 
@@ -89,7 +89,7 @@ const Header = () => {
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.7, delay: 0.1 }}
           >
-            We're digitizing life and business through our revolutionary AI platform that puts app creation in everyone's hands
+            ZAPT's AI app creation platform is now live, bringing app creation to everyone, just as YouTube did for video
           </motion.p>
           
           <motion.div
@@ -104,7 +104,7 @@ const Header = () => {
               smooth={true}
               offset={-70}
               duration={500}
-              className="btn btn-primary btn-interactive shadow-md shadow-primary/20"
+              className="btn btn-primary btn-interactive shadow-md shadow-primary/20 cursor-pointer"
             >
               <span>See Our Progress</span>
             </Link>
@@ -114,7 +114,7 @@ const Header = () => {
               smooth={true}
               offset={-70}
               duration={500}
-              className="btn btn-outline btn-interactive hover:bg-primary-50"
+              className="btn btn-outline btn-interactive hover:bg-primary-50 cursor-pointer"
             >
               <span>View App Showcase</span>
             </Link>
@@ -198,16 +198,6 @@ const Header = () => {
                 </div>
               </motion.div>
             </div>
-            
-            {/* Caption */}
-            <motion.div
-              className="text-center mt-8 text-gray-600 text-sm italic"
-              initial={{ opacity: 0 }}
-              animate={{ opacity: 0.8 }}
-              transition={{ duration: 1, delay: 1 }}
-            >
-              Not an email. Not a slide deck. <span className="text-primary-600 font-medium">An investor update as an app</span> — just one example of digitizing everything with ZAPT.
-            </motion.div>
           </motion.div>
         </div>
       </div>

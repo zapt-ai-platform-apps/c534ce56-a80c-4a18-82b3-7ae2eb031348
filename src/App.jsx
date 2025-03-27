@@ -6,9 +6,7 @@ import GrowthMetrics from '@/components/GrowthMetrics';
 import ProductProgress from '@/components/ProductProgress';
 import CommercialTraction from '@/components/CommercialTraction';
 import AppShowcase from '@/components/AppShowcase';
-import MarketPosition from '@/components/MarketPosition';
 import ZaptBadge from '@/components/ZaptBadge';
-import DigitizingEverything from '@/components/DigitizingEverything';
 import Footer from '@/components/Footer';
 
 export default function App() {
@@ -42,12 +40,10 @@ export default function App() {
       <main className="flex-grow">
         <Header />
         <ExecutiveSummary />
-        <DigitizingEverything />
         <GrowthMetrics />
         <ProductProgress />
         <CommercialTraction />
         <AppShowcase />
-        <MarketPosition />
       </main>
       
       <Footer />

@@ -4,24 +4,24 @@ import { motion } from 'framer-motion';
 
 const visionPoints = [
   {
-    title: "Scale",
+    title: "Mass Market",
     icon: "🚀",
-    description: "Our goal is to reach millions of users worldwide, making app creation accessible to everyone regardless of technical background."
+    description: "We're bringing app creation to everyone, just like YouTube brought video creation to the masses."
+  },
+  {
+    title: "Revolution",
+    icon: "💡",
+    description: "Fundamentally changing who can create apps and how easily they can be built and shared."
   },
   {
     title: "Simplicity",
     icon: "🎯",
-    description: "We're committed to maintaining an intuitive interface that allows complete beginners to create powerful apps within minutes."
+    description: "Complete beginners can create powerful apps by simply describing what they want in plain English."
   },
   {
-    title: "Impact",
-    icon: "💡",
-    description: "Just as YouTube revolutionized video content creation, we aim to fundamentally transform how software is built and deployed."
-  },
-  {
-    title: "Innovation",
+    title: "Excitement",
     icon: "⚡",
-    description: "We'll continuously push the boundaries of what's possible with AI to make app creation faster and more powerful."
+    description: "Early users are already creating apps for purposes we never imagined possible."
   }
 ];
 
@@ -53,13 +53,13 @@ const GrowthMetrics = () => {
   return (
     <section className="section bg-gray-50" id="vision">
       <div className="container-custom">
-        <div className="text-center mb-16">
+        <div className="text-center mb-12">
           <span className="inline-block px-4 py-1 bg-secondary/10 rounded-full text-secondary-600 text-sm font-medium mb-4">
-            Future Growth
+            The Big Idea
           </span>
-          <h2 className="heading-lg mb-4">Our Vision</h2>
+          <h2 className="heading-lg mb-4">Our YouTube Revolution</h2>
           <p className="text-lg text-gray-600 max-w-3xl mx-auto">
-            How we plan to revolutionize app creation globally
+            How we're revolutionizing app creation the way YouTube transformed video
           </p>
         </div>
 
@@ -92,19 +92,19 @@ const GrowthMetrics = () => {
               <div className="hidden lg:block absolute -bottom-10 -right-10 w-40 h-40 bg-primary-200 rounded-full mix-blend-multiply filter blur-3xl opacity-10 animate-blob animation-delay-2000"></div>
               <div className="hidden lg:block absolute top-20 right-20 w-40 h-40 bg-secondary-200 rounded-full mix-blend-multiply filter blur-3xl opacity-10 animate-blob animation-delay-4000"></div>
             
-              <h3 className="text-2xl font-bold mb-6 text-center">The YouTube Parallel</h3>
+              <h3 className="text-2xl font-bold mb-6 text-center">Before YouTube vs. After YouTube</h3>
               <div className="grid grid-cols-1 lg:grid-cols-2 gap-12">
                 <div className="prose prose-lg text-gray-700">
                   <div className="bg-primary-50 p-6 rounded-lg border border-primary-100 mb-6">
-                    <h4 className="font-bold text-primary-700 mb-3">The Video Revolution</h4>
+                    <h4 className="font-bold text-primary-700 mb-3">Remember When Video Was Hard?</h4>
                     <p className="text-gray-700 leading-relaxed">
-                      Before YouTube, video production was limited to professionals with expensive equipment and technical expertise. YouTube changed that forever by:
+                      Before YouTube, video production required:
                     </p>
                     <ul className="mt-3 space-y-1">
-                      <li>Removing technical barriers</li>
-                      <li>Providing free hosting and distribution</li>
-                      <li>Creating an audience discovery mechanism</li>
-                      <li>Allowing creators to monetize their content</li>
+                      <li>Expensive equipment</li>
+                      <li>Technical expertise</li>
+                      <li>Complex distribution</li>
+                      <li>Limited audience reach</li>
                     </ul>
                   </div>
                   
@@ -112,25 +112,19 @@ const GrowthMetrics = () => {
                     Similarly, app creation has been restricted to developers and those who can afford to hire them. Our platform changes that fundamental equation.
                   </p>
                   <p>
-                    And just like YouTube couldn't predict all the ways people would use video - from unboxing videos to online courses, product reviews to citizen journalism - we're seeing early users create apps for purposes we never imagined.
-                  </p>
-                  <p>
-                    The power isn't just in the technology - it's in putting that technology in the hands of people who understand specific problems that need solving, even if they've never written a line of code.
+                    <strong>We're the YouTube of apps</strong> - making creation accessible to everyone, enabling uses we can't even imagine yet, and creating a whole new world of possibilities.
                   </p>
                 </div>
                 <div>
                   <div className="bg-white p-4 rounded-lg border border-gray-200 shadow-lg">
                     <img src="https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w2NjQ4Nzh8MHwxfHNlYXJjaHw3fHxpbnNwaXJpbmclMjB2aXN1YWwlMjBzaG93aW5nJTIwZ2xvYmFsJTIwcGxhdGZvcm0lMjBncm93dGglMjB2aXNpb24lMjB3aXRoJTIwZGlnaXRhbCUyMGNvbm5lY3Rpb25zJTIwcmVhY2hpbmclMjB3b3JsZHdpZGV8ZW58MHx8fHwxNzQzMTEyMzI5fDA&ixlib=rb-4.0.3&q=80&w=1080"  
                       alt="Platform growth vision" 
-                      className="w-full h-64 object-cover rounded-lg mb-6"
+                      className="w-full h-48 object-cover rounded-lg mb-6"
                       data-image-request="inspiring visual showing global platform growth vision with digital connections reaching worldwide"
                     />
                     
                     <div className="border-l-4 border-secondary-500 pl-4 py-2">
-                      <h4 className="text-lg font-bold text-secondary-700 mb-2">The App Creation Revolution</h4>
-                      <p className="text-gray-600">
-                        Just as YouTube revolutionized video creation, ZAPT is democratizing app development by:
-                      </p>
+                      <h4 className="text-lg font-bold text-secondary-700 mb-2">Before vs. After ZAPT</h4>
                     </div>
                     
                     <div className="grid grid-cols-2 gap-4 mt-6">
@@ -138,10 +132,10 @@ const GrowthMetrics = () => {
                         <div className="text-center text-primary-500 text-2xl mb-2">💻</div>
                         <h5 className="font-medium text-center mb-2">Before ZAPT</h5>
                         <ul className="text-sm text-gray-600 space-y-2 pl-4">
-                          <li>Technical coding expertise</li>
-                          <li>Expensive development teams</li>
-                          <li>Months of development time</li>
-                          <li>Limited to technical people</li>
+                          <li>Coding expertise required</li>
+                          <li>Expensive to build</li>
+                          <li>Months of development</li>
+                          <li>Only for techies</li>
                         </ul>
                       </div>
                       
@@ -149,10 +143,10 @@ const GrowthMetrics = () => {
                         <div className="text-center text-primary-500 text-2xl mb-2">✨</div>
                         <h5 className="font-medium text-center mb-2">With ZAPT</h5>
                         <ul className="text-sm text-gray-600 space-y-2 pl-4">
-                          <li>Simple natural language</li>
+                          <li>Just describe what you want</li>
                           <li>Affordable for everyone</li>
                           <li>Apps built in minutes</li>
-                          <li>Accessible to anyone</li>
+                          <li>Anyone can create</li>
                         </ul>
                       </div>
                     </div>

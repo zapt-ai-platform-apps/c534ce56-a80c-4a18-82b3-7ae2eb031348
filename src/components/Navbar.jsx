@@ -5,12 +5,10 @@ import { motion, AnimatePresence } from 'framer-motion';
 const navLinks = [
   { to: "home", label: "Home" },
   { to: "summary", label: "Summary" },
-  { to: "digitizing", label: "Apps for Everything" },
-  { to: "vision", label: "Vision" },
-  { to: "product", label: "Product" },
-  { to: "strategy", label: "Strategy" },
-  { to: "showcase", label: "Showcase" },
-  { to: "market", label: "Features" }
+  { to: "vision", label: "YouTube Moment" },
+  { to: "product", label: "Platform" },
+  { to: "strategy", label: "Approach" },
+  { to: "showcase", label: "App Examples" }
 ];
 
 const Navbar = () => {
@@ -60,7 +58,7 @@ const Navbar = () => {
         </div>
         
         <button
-          className="md:hidden text-gray-700 focus:outline-none"
+          className="md:hidden text-gray-700 focus:outline-none cursor-pointer"
           onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
           aria-label="Toggle mobile menu"
         >
@@ -95,7 +93,7 @@ const Navbar = () => {
                       smooth={true}
                       offset={-70}
                       duration={500}
-                      className="text-gray-700 hover:text-primary-600 block py-2 transition-colors font-medium"
+                      className="text-gray-700 hover:text-primary-600 block py-2 transition-colors font-medium cursor-pointer"
                       onClick={() => setMobileMenuOpen(false)}
                     >
                       {link.label}
