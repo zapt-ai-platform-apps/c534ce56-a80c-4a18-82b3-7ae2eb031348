@@ -28,7 +28,7 @@ const ExecutiveSummary = () => {
                 <div className="inline-block px-3 py-1 bg-primary-100 text-primary-600 rounded-full text-sm font-medium mb-4">
                   Platform Launch Announcement 🚀
                 </div>
-                <h3 className="text-2xl font-bold mb-6">Our YouTube Moment Has Arrived</h3>
+                <h3 className="text-2xl font-bold mb-6">Our AI Platform Has Launched</h3>
                 <div className="prose prose-lg text-gray-700 max-w-none">
                   <p className="mb-4">
                     <strong>We're live!</strong> The ZAPT AI app creation platform has officially launched, and we're at the beginning of what we believe is our "YouTube moment" - the revolutionary period where we'll transform app creation the way YouTube revolutionized video.
@@ -66,22 +66,6 @@ const ExecutiveSummary = () => {
                           </svg>
                         </div>
                         <p className="text-gray-700"><span className="font-medium">Mass Market Revolution:</span> Anyone can now create apps</p>
-                      </li>
-                      <li className="flex items-start gap-3">
-                        <div className="bg-green-100 p-1 rounded-full text-green-600 mt-1 flex-shrink-0">
-                          <svg xmlns="http://www.w3.org/2000/svg" className="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
-                          </svg>
-                        </div>
-                        <p className="text-gray-700"><span className="font-medium">First 100+ Apps:</span> Already created by users</p>
-                      </li>
-                      <li className="flex items-start gap-3">
-                        <div className="bg-green-100 p-1 rounded-full text-green-600 mt-1 flex-shrink-0">
-                          <svg xmlns="http://www.w3.org/2000/svg" className="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
-                          </svg>
-                        </div>
-                        <p className="text-gray-700"><span className="font-medium">Growing Quickly:</span> Daily user signups accelerating</p>
                       </li>
                     </ul>
                   </div>

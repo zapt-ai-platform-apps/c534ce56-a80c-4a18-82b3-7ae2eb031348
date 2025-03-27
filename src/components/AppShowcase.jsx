@@ -103,22 +103,8 @@ const AppShowcase = () => {
                 <div className="card p-8 bg-gradient-to-r from-primary-50 to-white">
                   <h3 className="text-2xl font-bold mb-4">The App Revolution Has Begun</h3>
                   <p className="text-lg text-gray-700 mb-6">
-                    Our platform has enabled the creation of over 100 diverse applications across multiple industries, with minimal technical expertise required.
+                    Our platform has enabled the creation of diverse applications across multiple industries, with minimal technical expertise required.
                   </p>
-                  <div className="grid grid-cols-3 gap-4 mt-8">
-                    <div className="text-center">
-                      <div className="text-3xl font-bold text-primary-600 mb-1">100+</div>
-                      <p className="text-sm text-gray-600">Apps Created</p>
-                    </div>
-                    <div className="text-center">
-                      <div className="text-3xl font-bold text-primary-600 mb-1">12</div>
-                      <p className="text-sm text-gray-600">Industries</p>
-                    </div>
-                    <div className="text-center">
-                      <div className="text-3xl font-bold text-primary-600 mb-1">85%</div>
-                      <p className="text-sm text-gray-600">Non-Technical Users</p>
-                    </div>
-                  </div>
                 </div>
               </div>
             </div>

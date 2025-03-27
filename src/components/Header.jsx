@@ -80,7 +80,7 @@ const Header = () => {
               transform: `translateX(${mousePosition.x * 10}px) translateY(${mousePosition.y * 10}px)`,
             }}
           >
-            <span className="gradient-text">We're Live! Our YouTube Moment is Here</span>
+            <span className="gradient-text">ZAPT Platform Launch Update</span>
           </motion.h1>
           
           <motion.p 
@@ -118,86 +118,6 @@ const Header = () => {
             >
               <span>View App Showcase</span>
             </Link>
-          </motion.div>
-          
-          {/* Floating devices showcase */}
-          <motion.div
-            className="mt-16 relative w-full max-w-5xl mx-auto"
-            initial={{ opacity: 0 }}
-            animate={{ opacity: 1 }}
-            transition={{ duration: 1, delay: 0.5 }}
-          >
-            <div className="relative h-64 md:h-80">
-              {/* Phone mockup */}
-              <motion.div
-                className="absolute left-1/4 transform -translate-x-1/2 z-10 float-slow shadow-2xl rounded-xl overflow-hidden border-8 border-gray-800"
-                style={{ width: '160px', height: '320px' }}
-                animate={{
-                  y: [0, -15, 0],
-                  rotate: [-2, 0, -2],
-                }}
-                transition={{
-                  duration: 6,
-                  repeat: Infinity,
-                  repeatType: "reverse",
-                }}
-              >
-                <img src="https://images.unsplash.com/photo-1502691876148-a84978e59af8?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w2NjQ4Nzh8MHwxfHNlYXJjaHwyfHxzbGVlayUyMG1vYmlsZSUyMGFwcCUyMGludGVyZmFjZSUyMHNob3dpbmclMjBhJTIwbW9kZXJuJTIwdGFzayUyMG1hbmFnZW1lbnQlMjBkYXNoYm9hcmQlMjB3aXRoJTIwY2hhcnRzJTIwYW5kJTIwY29sb3JmdWwlMjBVSSUyMGVsZW1lbnRzfGVufDB8fHx8MTc0MzExMjMyOHww&ixlib=rb-4.0.3&q=80&w=1080" 
-                   
-                  alt="Mobile app interface" 
-                  className="w-full h-full object-cover"
-                  data-image-request="sleek mobile app interface showing a modern task management dashboard with charts and colorful UI elements"
-                />
-              </motion.div>
-              
-              {/* Tablet mockup */}
-              <motion.div
-                className="absolute left-1/2 transform -translate-x-1/2 z-20 float shadow-2xl rounded-xl overflow-hidden border-8 border-gray-800"
-                style={{ width: '280px', height: '200px' }}
-                animate={{
-                  y: [0, -10, 0],
-                }}
-                transition={{
-                  duration: 5,
-                  repeat: Infinity,
-                  repeatType: "reverse",
-                }}
-              >
-                <img src="https://images.unsplash.com/photo-1444653389962-8149286c578a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w2NjQ4Nzh8MHwxfHNlYXJjaHwxfHxlbGVnYW50JTIwdGFibGV0JTIwYXBwJTIwaW50ZXJmYWNlJTIwc2hvd2luZyUyMGElMjBmaW5hbmNpYWwlMjBkYXNoYm9hcmQlMjB3aXRoJTIwY2hhcnRzJTIwYW5kJTIwYW5hbHl0aWNzJTJDJTIwbW9kZXJuJTIwVUl8ZW58MHx8fHwxNzQzMTEyMzI4fDA&ixlib=rb-4.0.3&q=80&w=1080" 
-                   
-                  alt="Tablet app interface" 
-                  className="w-full h-full object-cover"
-                  data-image-request="elegant tablet app interface showing a financial dashboard with charts and analytics, modern UI"
-                />
-              </motion.div>
-              
-              {/* Laptop mockup */}
-              <motion.div
-                className="absolute right-1/4 transform translate-x-1/2 z-10 float-fast shadow-2xl rounded-t-xl overflow-hidden"
-                style={{ width: '240px', height: '150px' }}
-                animate={{
-                  y: [0, -12, 0],
-                  rotate: [2, 0, 2],
-                }}
-                transition={{
-                  duration: 7,
-                  repeat: Infinity,
-                  repeatType: "reverse",
-                }}
-              >
-                <div className="bg-gray-800 h-full">
-                  <div className="h-[85%] overflow-hidden">
-                    <img src="https://images.unsplash.com/photo-1579208570378-8c970854bc23?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w2NjQ4Nzh8MHwxfHNlYXJjaHw4fHxwcm9mZXNzaW9uYWwlMjBkZXNrdG9wJTIwYXBwJTIwaW50ZXJmYWNlJTIwc2hvd2luZyUyMGElMjBjdXN0b21lciUyMHJlbGF0aW9uc2hpcCUyMG1hbmFnZW1lbnQlMjBkYXNoYm9hcmQlMjB3aXRoJTIwZGF0YSUyMHZpc3VhbGl6YXRpb258ZW58MHx8fHwxNzQzMTEyMzI4fDA&ixlib=rb-4.0.3&q=80&w=1080" 
-                       
-                      alt="Desktop app interface" 
-                      className="w-full h-full object-cover"
-                      data-image-request="professional desktop app interface showing a customer relationship management dashboard with data visualization"
-                    />
-                  </div>
-                  <div className="h-[15%] bg-gray-800"></div>
-                </div>
-              </motion.div>
-            </div>
           </motion.div>
         </div>
       </div>

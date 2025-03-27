@@ -7,7 +7,6 @@ import ProductProgress from '@/components/ProductProgress';
 import CommercialTraction from '@/components/CommercialTraction';
 import AppShowcase from '@/components/AppShowcase';
 import ZaptBadge from '@/components/ZaptBadge';
-import Footer from '@/components/Footer';
 
 export default function App() {
   // Initialize animation for elements with the animate-on-scroll class
@@ -46,7 +45,6 @@ export default function App() {
         <AppShowcase />
       </main>
       
-      <Footer />
       <ZaptBadge />
     </div>
   );
