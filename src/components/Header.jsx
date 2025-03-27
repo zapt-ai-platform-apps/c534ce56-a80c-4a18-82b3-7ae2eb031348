@@ -2,11 +2,6 @@ import React from 'react';
 import { motion } from 'framer-motion';
 
 const Header = () => {
-  // Get current quarter and year
-  const now = new Date();
-  const quarter = Math.floor(now.getMonth() / 3) + 1;
-  const year = now.getFullYear();
-
   return (
     <header className="pt-28 pb-16 md:pt-36 md:pb-24 hero-gradient" id="home">
       <div className="container-custom">
@@ -17,7 +12,7 @@ const Header = () => {
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.5 }}
           >
-            Platform Launch Announcement • Q{quarter} {year}
+            ZAPT Investor Update • March 2025
           </motion.div>
           
           <motion.h1 

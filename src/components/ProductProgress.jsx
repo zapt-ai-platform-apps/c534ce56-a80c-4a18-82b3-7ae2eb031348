@@ -29,24 +29,36 @@ const ProductProgress = () => {
             <h3 className="text-xl font-bold mb-4">Platform Features</h3>
             <ul className="space-y-4">
               <FeatureItem
-                title="Advanced AI Understanding"
-                description="Our AI interprets complex app requirements and generates sophisticated code structures."
+                title="Databases"
+                description="Seamlessly integrate and manage data with our built-in database functionality."
               />
               <FeatureItem
-                title="Database Integration"
-                description="Support for complex data relationships and advanced queries while maintaining our no-code approach."
+                title="Authentication"
+                description="Secure user authentication with multiple sign-in options and management tools."
               />
               <FeatureItem
-                title="Custom UI Components"
-                description="Extensive library of customizable UI components for visually distinctive applications."
+                title="Error Monitoring"
+                description="Real-time error tracking and monitoring to ensure your app runs smoothly."
               />
               <FeatureItem
-                title="Performance Optimization"
-                description="Optimized code generation and resource management for fast-loading applications."
+                title="Web Analytics"
+                description="Comprehensive analytics to track visitor engagement and app performance."
               />
               <FeatureItem
-                title="Security & Authentication"
-                description="Built-in authentication options and security best practices for all generated apps."
+                title="Monetisation"
+                description="Built-in subscription billing for monetizing your apps with monthly subscriptions."
+              />
+              <FeatureItem
+                title="User Analytics"
+                description="Detailed insights on signed-in users to understand usage patterns and behaviors."
+              />
+              <FeatureItem
+                title="Custom Domains"
+                description="Easily connect your own domain name to give your app a professional presence."
+              />
+              <FeatureItem
+                title="Customer Support"
+                description="In-app messaging system allowing users to contact you directly for assistance."
               />
             </ul>
           </motion.div>
