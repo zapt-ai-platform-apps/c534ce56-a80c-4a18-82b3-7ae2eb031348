@@ -10,6 +10,10 @@
   body {
     @apply bg-light text-dark font-sans;
   }
+  
+  ::selection {
+    @apply bg-primary-200 text-primary-900;
+  }
 }
 
 @layer components {
@@ -132,4 +136,35 @@
   min-height: 100vh;
   display: flex;
   flex-direction: column;
+}
+
+/* Investor update specific styles */
+.roadmap-gradient {
+  background: linear-gradient(135deg, rgba(0, 112, 243, 0.05), rgba(255, 255, 255, 0));
+}
+
+.customer-logo {
+  filter: grayscale(100%);
+  opacity: 0.8;
+  transition: all 0.3s ease;
+}
+
+.customer-logo:hover {
+  filter: grayscale(0%);
+  opacity: 1;
+}
+
+.metric-card {
+  position: relative;
+  overflow: hidden;
+}
+
+.metric-card::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 4px;
+  background: linear-gradient(90deg, theme('colors.primary.400'), theme('colors.secondary.400'));
 }

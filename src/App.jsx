@@ -1,11 +1,13 @@
 import React, { useEffect } from 'react';
 import Navbar from '@/components/Navbar';
 import Header from '@/components/Header';
-import ExampleApps from '@/components/ExampleApps';
-import HowItWorks from '@/components/HowItWorks';
-import YoutubeParallel from '@/components/YoutubeParallel';
-import AppStats from '@/components/AppStats';
+import ExecutiveSummary from '@/components/ExecutiveSummary';
+import GrowthMetrics from '@/components/GrowthMetrics';
+import ProductProgress from '@/components/ProductProgress';
+import CommercialTraction from '@/components/CommercialTraction';
+import AppShowcase from '@/components/AppShowcase';
 import MarketPosition from '@/components/MarketPosition';
+import Roadmap from '@/components/Roadmap';
 import Footer from '@/components/Footer';
 import ZaptBadge from '@/components/ZaptBadge';
 
@@ -39,11 +41,13 @@ export default function App() {
       
       <main className="flex-grow">
         <Header />
-        <YoutubeParallel />
-        <ExampleApps />
-        <HowItWorks />
-        <AppStats />
+        <ExecutiveSummary />
+        <GrowthMetrics />
+        <ProductProgress />
+        <CommercialTraction />
+        <AppShowcase />
         <MarketPosition />
+        <Roadmap />
       </main>
       
       <Footer />
