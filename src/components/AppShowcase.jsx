@@ -7,7 +7,6 @@ const featuredApps = [
     title: "Administrate",
     description: "A tool to help you manage your tasks efficiently",
     url: "https://www.administrate.co.uk/",
-    imageRequest: "task management dashboard with organized lists, calendar view, and productivity metrics",
     customer: "Professional Task Managers",
     features: ["Task organization", "Productivity tracking", "Calendar integration"]
   },
@@ -15,7 +14,6 @@ const featuredApps = [
     title: "Parking Disputer",
     description: "Fight Unfair Parking Tickets with AI Assistance",
     url: "https://parkingdisputer.zapt.app/",
-    imageRequest: "app interface for challenging parking tickets with AI analysis, showing a ticket submission form and case tracking",
     customer: "Consumer Rights Organization",
     features: ["AI ticket analysis", "Case tracking", "Success rate: 67%"]
   },
@@ -23,7 +21,6 @@ const featuredApps = [
     title: "Football Subs",
     description: "A tool for managing a kids football team",
     url: "https://www.footballsubs.com/",
-    imageRequest: "sports team management interface showing player roster, substitution tracking, and match schedule for youth football",
     customer: "Youth Sports Coaches",
     features: ["Player tracking", "Substitution management", "Match scheduling"]
   },
@@ -31,7 +28,6 @@ const featuredApps = [
     title: "Insurance Needs Analyzer",
     description: "Identify the right insurance coverage for you, your family, or your business",
     url: "https://020d1088-5e0c-40d4-929d-1c9185e52ec8.vercel.app/",
-    imageRequest: "insurance needs assessment interface with personalized recommendation calculator and coverage comparison charts",
     customer: "Insurance Brokerage Firm",
     features: ["Smart assessment", "Custom recommendations", "Savings calculator"]
   }
@@ -121,9 +117,6 @@ const AppCard = ({ app, variants }) => {
       className="premium-card overflow-hidden h-full flex flex-col hover-3d rounded-xl border border-white/10"
       variants={variants}
     >
-      <div className="h-60 overflow-hidden bg-white/5 flex items-center justify-center">
-        {/* App card content - icons removed */}
-      </div>
       <div className="p-6 flex flex-col flex-grow">
         <div className="flex justify-between items-start mb-3">
           <h3 className="text-xl font-bold text-white">{app.title}</h3>

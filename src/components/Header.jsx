@@ -131,20 +131,20 @@ const Header = () => {
         >
           <div className="absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 w-[500px] h-[500px] bg-gradient-to-r from-primary-500/20 to-secondary-500/20 rounded-full blur-[100px]"></div>
           
-          <div className="relative grid grid-cols-3 gap-4 max-w-4xl mx-auto">
+          <div className="relative grid grid-cols-1 sm:grid-cols-3 gap-4 max-w-4xl mx-auto">
             <motion.div 
-              className="col-span-1 h-20 bg-white/5 backdrop-blur-sm rounded-lg border border-white/10 flex items-center justify-center"
+              className="col-span-1 h-32 sm:h-20 bg-white/5 backdrop-blur-sm rounded-lg border border-white/10 flex items-center justify-center"
               animate={{ y: [0, -10, 0] }}
               transition={{ duration: 5, repeat: Infinity, repeatType: "mirror" }}
             >
               <div className="text-white text-center p-3">
-                <div className="text-xl font-bold text-primary-300">500+</div>
-                <div className="text-xs">Apps Created</div>
+                <div className="text-xl font-bold text-primary-300">Launch Success</div>
+                <div className="text-xs">Platform Live</div>
               </div>
             </motion.div>
             
             <motion.div 
-              className="col-span-2 h-32 bg-white/5 backdrop-blur-sm rounded-lg border border-white/10 flex items-center justify-center"
+              className="col-span-1 sm:col-span-2 h-32 bg-white/5 backdrop-blur-sm rounded-lg border border-white/10 flex items-center justify-center"
               animate={{ y: [0, 10, 0] }}
               transition={{ duration: 6, repeat: Infinity, repeatType: "mirror" }}
             >
@@ -155,16 +155,16 @@ const Header = () => {
             </motion.div>
             
             <motion.div 
-              className="col-span-3 h-24 bg-white/5 backdrop-blur-sm rounded-lg border border-white/10 flex items-center justify-center"
+              className="col-span-1 sm:col-span-3 h-24 bg-white/5 backdrop-blur-sm rounded-lg border border-white/10 flex items-center justify-center"
               animate={{ y: [0, -5, 0] }}
               transition={{ duration: 4, repeat: Infinity, repeatType: "mirror" }}
             >
-              <div className="text-white text-center p-4 flex items-center space-x-4">
+              <div className="text-white text-center p-4 flex flex-col sm:flex-row items-center space-y-2 sm:space-y-0 sm:space-x-4">
                 <div className="text-center">
                   <div className="text-xl font-bold text-primary-300">No Coding Skills</div>
                   <div className="text-sm">Required</div>
                 </div>
-                <div className="h-10 w-px bg-white/20"></div>
+                <div className="hidden sm:block h-10 w-px bg-white/20"></div>
                 <div className="text-center">
                   <div className="text-xl font-bold text-primary-300">Instant Deployment</div>
                   <div className="text-sm">Live in minutes</div>
@@ -173,14 +173,14 @@ const Header = () => {
             </motion.div>
             
             <motion.div 
-              className="col-span-2 h-28 bg-white/5 backdrop-blur-sm rounded-lg border border-white/10 flex items-center justify-center"
+              className="col-span-1 sm:col-span-2 h-28 bg-white/5 backdrop-blur-sm rounded-lg border border-white/10 flex items-center justify-center"
               animate={{ y: [0, 8, 0] }}
               transition={{ duration: 7, repeat: Infinity, repeatType: "mirror", delay: 0.5 }}
             >
               <div className="text-white text-center p-4">
                 <div className="text-xl font-bold text-primary-300">Robust Feature Set</div>
                 <div className="text-sm mt-1">Authentication, Databases, APIs, and more</div>
-                <div className="flex justify-center mt-2 space-x-2">
+                <div className="flex justify-center mt-2 space-x-2 flex-wrap">
                   <span className="px-2 py-1 text-xs bg-white/10 rounded">Auth</span>
                   <span className="px-2 py-1 text-xs bg-white/10 rounded">DB</span>
                   <span className="px-2 py-1 text-xs bg-white/10 rounded">APIs</span>

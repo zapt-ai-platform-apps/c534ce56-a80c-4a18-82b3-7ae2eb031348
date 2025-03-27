@@ -65,7 +65,7 @@ const GrowthMetrics = () => {
 
         <motion.div
           ref={ref}
-          className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6"
+          className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6"
           variants={containerVariants}
           initial="hidden"
           animate={inView ? "visible" : "hidden"}
@@ -82,7 +82,7 @@ const GrowthMetrics = () => {
 
         <div className="mt-16">
           <motion.div
-            className="premium-card p-8 overflow-hidden rounded-2xl border border-white/10"
+            className="premium-card p-6 md:p-8 overflow-hidden rounded-2xl border border-white/10"
             initial={{ opacity: 0, y: 20 }}
             animate={inView ? { opacity: 1, y: 0 } : { opacity: 0, y: 20 }}
             transition={{ duration: 0.7, delay: 0.3 }}
@@ -93,7 +93,7 @@ const GrowthMetrics = () => {
               <div className="hidden lg:block absolute top-20 right-20 w-40 h-40 bg-secondary-500/10 rounded-full mix-blend-screen filter blur-3xl opacity-50 animate-blob animation-delay-4000"></div>
             
               <h3 className="text-2xl font-bold mb-6 text-center text-white">Before YouTube vs. After YouTube</h3>
-              <div className="grid grid-cols-1 lg:grid-cols-2 gap-12">
+              <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-12">
                 <div className="prose prose-lg text-gray-300">
                   <div className="bg-white/5 backdrop-blur-sm p-6 rounded-lg border border-primary-500/20 mb-6">
                     <h4 className="font-bold text-primary-300 mb-3">Remember When Video Was Hard?</h4>
@@ -117,19 +117,11 @@ const GrowthMetrics = () => {
                 </div>
                 <div>
                   <div className="bg-white/5 backdrop-blur-sm p-6 rounded-lg border border-white/10 shadow-lg">
-                    <div className="aspect-video rounded-lg overflow-hidden mb-6 bg-white/5">
-                      <img src="https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w2NjQ4Nzh8MHwxfHNlYXJjaHw3fHxpbnNwaXJpbmclMjB2aXN1YWwlMjBzaG93aW5nJTIwZ2xvYmFsJTIwcGxhdGZvcm0lMjBncm93dGglMjB2aXNpb24lMjB3aXRoJTIwZGlnaXRhbCUyMGNvbm5lY3Rpb25zJTIwcmVhY2hpbmclMjB3b3JsZHdpZGV8ZW58MHx8fHwxNzQzMTEyMzI5fDA&ixlib=rb-4.0.3&q=80&w=1080"  
-                        alt="Platform growth vision" 
-                        className="w-full h-full object-cover"
-                        data-image-request="inspiring visual showing global platform growth vision with digital connections reaching worldwide"
-                      />
-                    </div>
-                    
-                    <div className="border-l-4 border-primary-500 pl-4 py-2">
+                    <div className="border-l-4 border-primary-500 pl-4 py-2 mb-6">
                       <h4 className="text-lg font-bold text-primary-300 mb-2">Before vs. After ZAPT</h4>
                     </div>
                     
-                    <div className="grid grid-cols-2 gap-4 mt-6">
+                    <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 mt-6">
                       <div className="bg-white/5 backdrop-blur-sm p-4 rounded-lg border border-white/10">
                         <div className="text-center text-3xl mb-2">💻</div>
                         <h5 className="font-medium text-center mb-2 text-white">Before ZAPT</h5>

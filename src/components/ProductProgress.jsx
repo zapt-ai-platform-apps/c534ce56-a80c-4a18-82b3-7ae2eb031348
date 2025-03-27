@@ -32,13 +32,13 @@ const ProductProgress = () => {
           <div className="absolute -bottom-24 -left-24 w-64 h-64 bg-secondary-500/20 rounded-full blur-[100px]"></div>
           
           <div className="flex flex-col md:flex-row items-center relative">
-            <div className="w-full md:w-2/3 mb-8 md:mb-0 md:pr-8">
+            <div className="w-full md:w-3/4 mb-8 md:mb-0 md:pr-8">
               <h3 className="text-2xl font-bold mb-5 text-white">How It Works</h3>
               <p className="text-gray-300 mb-6 leading-relaxed">
                 Just like YouTube revolutionized video creation with a simple "upload" button, we've made app creation as simple as describing what you want.
               </p>
               
-              <div className="flex flex-wrap gap-4 mt-8">
+              <div className="flex flex-wrap gap-4 mt-8 justify-center md:justify-start">
                 <div className="flex items-center bg-white/5 backdrop-blur-sm px-4 py-3 rounded-lg border border-white/10">
                   <span className="text-2xl mr-3">✍️</span>
                   <div>
@@ -83,15 +83,6 @@ const ProductProgress = () => {
                 <p className="text-xs text-gray-400 mt-2">
                   That's all it takes - our AI handles the rest!
                 </p>
-              </div>
-            </div>
-            <div className="w-full md:w-1/3">
-              <div className="rounded-xl overflow-hidden border border-white/10 premium-glow">
-                <img src="https://images.unsplash.com/photo-1473091534298-04dcbce3278c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w2NjQ4Nzh8MHwxfHNlYXJjaHw4fHxleGNpdGluZyUyMHBsYXRmb3JtJTIwbGF1bmNoJTIwY29uY2VwdCUyMHdpdGglMjByb2NrZXQlMjBpbWFnZXJ5JTIwc3ltYm9saXppbmclMjB0aGUlMjBiZWdpbm5pbmclMjBvZiUyMHNvbWV0aGluZyUyMHJldm9sdXRpb25hcnklMjB3aXRoJTIwZnV0dXJpc3RpYyUyMEFJJTIwdGVjaG5vbG9neXxlbnwwfHx8fDE3NDMxMTIzMjl8MA&ixlib=rb-4.0.3&q=80&w=1080"  
-                  alt="Platform launch concept" 
-                  className="w-full aspect-square object-cover"
-                  data-image-request="exciting platform launch concept with rocket imagery symbolizing the beginning of something revolutionary with futuristic AI technology"
-                />
               </div>
             </div>
           </div>

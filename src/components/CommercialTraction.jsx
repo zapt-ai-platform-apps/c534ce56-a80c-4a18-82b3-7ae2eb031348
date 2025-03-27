@@ -23,12 +23,12 @@ const CommercialTraction = () => {
 
         <motion.div
           ref={ref}
-          className="premium-card p-8 rounded-2xl border border-white/10"
+          className="premium-card p-6 md:p-8 rounded-2xl border border-white/10"
           initial={{ opacity: 0, y: 20 }}
           animate={inView ? { opacity: 1, y: 0 } : { opacity: 0, y: 20 }}
           transition={{ duration: 0.7 }}
         >
-          <div className="flex flex-col md:flex-row gap-10">
+          <div className="flex flex-col md:flex-row gap-8 lg:gap-10">
             <div className="md:w-2/3">
               <h3 className="text-2xl font-bold mb-6 text-white">Innovation Through Accessibility</h3>
               <div className="prose prose-lg text-gray-300 max-w-none mb-6">
@@ -36,7 +36,7 @@ const CommercialTraction = () => {
                   Just as major technology revolutions happen when powerful tools are made accessible to everyone, ZAPT is designed to evolve based on community feedback and usage patterns.
                 </p>
                 
-                <div className="bg-white/5 backdrop-blur-sm p-6 rounded-lg border border-primary-500/20 my-6">
+                <div className="bg-white/5 backdrop-blur-sm p-4 md:p-6 rounded-lg border border-primary-500/20 my-6">
                   <p className="mb-4">
                     <strong className="text-white">We aim to be user-led, like YouTube was, in going to market.</strong> Rather than dictating how people should use our platform, we're providing the tools and letting our users show us what's possible.
                   </p>
@@ -146,7 +146,7 @@ const CommercialTraction = () => {
           
           <div className="mt-10 pt-8 border-t border-white/10">
             <h4 className="text-xl font-bold mb-6 text-white">The Power of Technology Democratization</h4>
-            <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+            <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
               <div className="bg-white/5 backdrop-blur-sm p-6 rounded-lg border border-white/10 hover-3d">
                 <div className="text-3xl mb-4">🌱</div>
                 <h5 className="text-lg font-bold mb-2 text-white">Lower Barriers</h5>
