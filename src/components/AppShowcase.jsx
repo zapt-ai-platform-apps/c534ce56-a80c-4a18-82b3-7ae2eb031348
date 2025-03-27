@@ -101,9 +101,9 @@ const AppShowcase = () => {
             <div className="card-3d">
               <div className="card-3d-inner">
                 <div className="premium-card p-8 rounded-xl border border-white/10">
-                  <h3 className="text-2xl font-bold mb-4 text-white">The App Revolution Has Begun</h3>
+                  <h3 className="text-2xl font-bold mb-4 text-white">Transforming Ideas Into Reality</h3>
                   <p className="text-lg text-gray-300 mb-6">
-                    Our platform has enabled the creation of diverse applications across multiple industries, with minimal technical expertise required.
+                    From vision to fully functional applications, we're empowering creators across every industry to build solutions that matter, without technical barriers.
                   </p>
                 </div>
               </div>
@@ -122,13 +122,7 @@ const AppCard = ({ app, variants }) => {
       variants={variants}
     >
       <div className="h-60 overflow-hidden bg-white/5 flex items-center justify-center">
-        {/* Using icons instead of potentially broken images */}
-        <div className="text-6xl">
-          {app.title === "Administrate" && "📋"}
-          {app.title === "Parking Disputer" && "🚗"}
-          {app.title === "Football Subs" && "⚽"}
-          {app.title === "Insurance Needs Analyzer" && "🛡️"}
-        </div>
+        {/* App card content - icons removed */}
       </div>
       <div className="p-6 flex flex-col flex-grow">
         <div className="flex justify-between items-start mb-3">

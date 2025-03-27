@@ -122,7 +122,7 @@ const Header = () => {
           </motion.div>
         </div>
         
-        {/* Visual elements */}
+        {/* Visual elements with content */}
         <motion.div 
           className="mt-16 relative"
           initial={{ opacity: 0 }}
@@ -133,30 +133,73 @@ const Header = () => {
           
           <div className="relative grid grid-cols-3 gap-4 max-w-4xl mx-auto">
             <motion.div 
-              className="col-span-1 h-20 bg-white/5 backdrop-blur-sm rounded-lg border border-white/10"
+              className="col-span-1 h-20 bg-white/5 backdrop-blur-sm rounded-lg border border-white/10 flex items-center justify-center"
               animate={{ y: [0, -10, 0] }}
               transition={{ duration: 5, repeat: Infinity, repeatType: "mirror" }}
-            ></motion.div>
+            >
+              <div className="text-white text-center p-3">
+                <div className="text-xl font-bold text-primary-300">500+</div>
+                <div className="text-xs">Apps Created</div>
+              </div>
+            </motion.div>
+            
             <motion.div 
-              className="col-span-2 h-32 bg-white/5 backdrop-blur-sm rounded-lg border border-white/10"
+              className="col-span-2 h-32 bg-white/5 backdrop-blur-sm rounded-lg border border-white/10 flex items-center justify-center"
               animate={{ y: [0, 10, 0] }}
               transition={{ duration: 6, repeat: Infinity, repeatType: "mirror" }}
-            ></motion.div>
+            >
+              <div className="text-white text-center p-4">
+                <div className="text-2xl font-bold text-primary-300">Simple AI Interface</div>
+                <div className="text-sm mt-1">Describe your app in plain English</div>
+              </div>
+            </motion.div>
+            
             <motion.div 
-              className="col-span-3 h-24 bg-white/5 backdrop-blur-sm rounded-lg border border-white/10"
+              className="col-span-3 h-24 bg-white/5 backdrop-blur-sm rounded-lg border border-white/10 flex items-center justify-center"
               animate={{ y: [0, -5, 0] }}
               transition={{ duration: 4, repeat: Infinity, repeatType: "mirror" }}
-            ></motion.div>
+            >
+              <div className="text-white text-center p-4 flex items-center space-x-4">
+                <div className="text-center">
+                  <div className="text-xl font-bold text-primary-300">No Coding Skills</div>
+                  <div className="text-sm">Required</div>
+                </div>
+                <div className="h-10 w-px bg-white/20"></div>
+                <div className="text-center">
+                  <div className="text-xl font-bold text-primary-300">Instant Deployment</div>
+                  <div className="text-sm">Live in minutes</div>
+                </div>
+              </div>
+            </motion.div>
+            
             <motion.div 
-              className="col-span-2 h-28 bg-white/5 backdrop-blur-sm rounded-lg border border-white/10"
+              className="col-span-2 h-28 bg-white/5 backdrop-blur-sm rounded-lg border border-white/10 flex items-center justify-center"
               animate={{ y: [0, 8, 0] }}
               transition={{ duration: 7, repeat: Infinity, repeatType: "mirror", delay: 0.5 }}
-            ></motion.div>
+            >
+              <div className="text-white text-center p-4">
+                <div className="text-xl font-bold text-primary-300">Robust Feature Set</div>
+                <div className="text-sm mt-1">Authentication, Databases, APIs, and more</div>
+                <div className="flex justify-center mt-2 space-x-2">
+                  <span className="px-2 py-1 text-xs bg-white/10 rounded">Auth</span>
+                  <span className="px-2 py-1 text-xs bg-white/10 rounded">DB</span>
+                  <span className="px-2 py-1 text-xs bg-white/10 rounded">APIs</span>
+                </div>
+              </div>
+            </motion.div>
+            
             <motion.div 
-              className="col-span-1 h-40 bg-white/5 backdrop-blur-sm rounded-lg border border-white/10"
+              className="col-span-1 h-40 bg-white/5 backdrop-blur-sm rounded-lg border border-white/10 flex items-center justify-center"
               animate={{ y: [0, -12, 0] }}
               transition={{ duration: 5.5, repeat: Infinity, repeatType: "mirror", delay: 0.2 }}
-            ></motion.div>
+            >
+              <div className="text-white text-center p-3">
+                <div className="text-2xl font-bold text-primary-300">100%</div>
+                <div className="text-lg">Open to</div>
+                <div className="text-lg">Everyone</div>
+                <div className="mt-2 text-xs px-3 py-1 bg-white/10 rounded-full">Start today</div>
+              </div>
+            </motion.div>
           </div>
         </motion.div>
       </div>
