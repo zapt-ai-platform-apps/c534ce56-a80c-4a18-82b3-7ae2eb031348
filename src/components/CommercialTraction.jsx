@@ -33,12 +33,12 @@ const CommercialTraction = () => {
               <h3 className="text-2xl font-bold mb-6 text-white">Innovation Through Accessibility</h3>
               <div className="prose prose-lg text-gray-300 max-w-none mb-6">
                 <p>
-                  Just as major technology revolutions happen when powerful tools are made accessible to everyone, ZAPT is designed to evolve based on community feedback and usage patterns.
+                  Major technology revolutions happen when powerful tools become accessible to everyone. ZAPT evolves based on community feedback and usage patterns.
                 </p>
                 
                 <div className="bg-white/5 backdrop-blur-sm p-4 md:p-6 rounded-lg border border-primary-500/20 my-6">
                   <p className="mb-4">
-                    <strong className="text-white">We aim to be user-led, like YouTube was, in going to market.</strong> Rather than dictating how people should use our platform, we're providing the tools and letting our users show us what's possible.
+                    <strong className="text-white">Our approach is user-led, like YouTube.</strong> We provide the tools and let users show us what's possible.
                   </p>
                   <ul className="space-y-4">
                     <li className="flex items-start">
@@ -48,7 +48,7 @@ const CommercialTraction = () => {
                         </svg>
                       </div>
                       <div className="text-gray-300">
-                        <strong className="text-white">User-Defined Innovation</strong> - Our roadmap will be guided by how people actually use our platform
+                        <strong className="text-white">User-Defined Innovation</strong> - Our roadmap follows how people use our platform
                       </div>
                     </li>
                     <li className="flex items-start">
@@ -58,7 +58,7 @@ const CommercialTraction = () => {
                         </svg>
                       </div>
                       <div className="text-gray-300">
-                        <strong className="text-white">Organic Growth</strong> - Letting word-of-mouth and user satisfaction drive our expansion
+                        <strong className="text-white">Organic Growth</strong> - Word-of-mouth and user satisfaction drive expansion
                       </div>
                     </li>
                     <li className="flex items-start">
@@ -68,18 +68,18 @@ const CommercialTraction = () => {
                         </svg>
                       </div>
                       <div className="text-gray-300">
-                        <strong className="text-white">Market-Led Development</strong> - Building features based on real-world usage and needs
+                        <strong className="text-white">Market-Led Development</strong> - Building features based on real usage and needs
                       </div>
                     </li>
                   </ul>
                 </div>
                 
                 <p>
-                  <strong className="text-white">History shows us that transformative platforms emerge when powerful technology becomes simple to use.</strong> We're creating the canvas and letting our users paint the picture. We expect users to create applications we haven't even imagined yet.
+                  <strong className="text-white">Transformative platforms emerge when technology becomes simple to use.</strong> We create the canvas and users paint the picture, often creating applications we never imagined.
                 </p>
                 
                 <p>
-                  This democratization of app creation technology follows the same pattern that drove revolutions in other fields:
+                  This democratization follows the pattern of other revolutions:
                 </p>
                 
                 <ul className="space-y-2 mt-4 text-gray-300">

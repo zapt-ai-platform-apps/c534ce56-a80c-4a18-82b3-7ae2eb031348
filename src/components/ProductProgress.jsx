@@ -31,8 +31,8 @@ const ProductProgress = () => {
           <div className="absolute -top-24 -right-24 w-64 h-64 bg-primary-500/20 rounded-full blur-[100px]"></div>
           <div className="absolute -bottom-24 -left-24 w-64 h-64 bg-secondary-500/20 rounded-full blur-[100px]"></div>
           
-          <div className="flex flex-col md:flex-row items-center relative">
-            <div className="w-full md:w-3/4 mb-8 md:mb-0 md:pr-8">
+          <div className="flex flex-col md:flex-row items-center gap-8 relative">
+            <div className="w-full">
               <h3 className="text-2xl font-bold mb-5 text-white">How It Works</h3>
               <p className="text-gray-300 mb-6 leading-relaxed">
                 Just like YouTube revolutionized video creation with a simple "upload" button, we've made app creation as simple as describing what you want.
@@ -84,6 +84,28 @@ const ProductProgress = () => {
                   That's all it takes - our AI handles the rest!
                 </p>
               </div>
+              
+              <div className="mt-8 flex justify-center md:justify-start">
+                <div className="bg-primary-500/10 p-4 rounded-lg border border-primary-500/20 w-full md:max-w-md">
+                  <h4 className="font-bold text-white mb-2">Ready for Everyone</h4>
+                  <p className="text-sm text-gray-300">
+                    Just like WordPress revolutionized website creation, ZAPT is democratizing app development—no coding knowledge required.
+                  </p>
+                  <div className="mt-4 flex justify-end">
+                    <div className="px-3 py-1 bg-primary-500/20 text-primary-300 text-xs rounded-full">
+                      Create, Deploy, Share
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            
+            <div className="hidden md:block md:w-96 lg:w-[400px] h-auto">
+              <img 
+                src="https://supabase.zapt.ai/storage/v1/render/image/public/icons/c7bd5333-787f-461f-ae9b-22acbc0ed4b0/55145115-0624-472f-96b9-d5d88aae355f.png?width=400&height=400" 
+                alt="ZAPT App Creation Platform" 
+                className="w-full rounded-lg object-cover border border-white/10 shadow-xl" 
+              />
             </div>
           </div>
         </motion.div>
