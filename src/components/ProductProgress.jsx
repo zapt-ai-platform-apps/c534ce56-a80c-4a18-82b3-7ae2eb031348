@@ -31,7 +31,7 @@ const ProductProgress = () => {
           <div className="absolute -top-24 -right-24 w-64 h-64 bg-primary-500/20 rounded-full blur-[100px]"></div>
           <div className="absolute -bottom-24 -left-24 w-64 h-64 bg-secondary-500/20 rounded-full blur-[100px]"></div>
           
-          <div className="flex flex-col md:flex-row items-center gap-8 relative">
+          <div className="flex flex-col relative">
             <div className="w-full">
               <h3 className="text-2xl font-bold mb-5 text-white">How It Works</h3>
               <p className="text-gray-300 mb-6 leading-relaxed">
@@ -99,25 +99,6 @@ const ProductProgress = () => {
                 </div>
               </div>
             </div>
-            
-            <div className="hidden md:block md:w-96 lg:w-[400px] h-auto">
-              <img 
-                src="https://supabase.zapt.ai/storage/v1/render/image/public/icons/c7bd5333-787f-461f-ae9b-22acbc0ed4b0/55145115-0624-472f-96b9-d5d88aae355f.png?width=400&height=400" 
-                alt="ZAPT App Creation Platform" 
-                className="w-full rounded-lg object-cover border border-white/10 shadow-xl" 
-              />
-            </div>
-          </div>
-        </motion.div>
-
-        <motion.div
-          className="text-center"
-          initial={{ opacity: 0, y: 20 }}
-          animate={inView ? { opacity: 1, y: 0 } : { opacity: 0, y: 20 }}
-          transition={{ duration: 0.7, delay: 0.2 }}
-        >
-          <div className="inline-block premium-button px-6 py-3 rounded-full text-white font-medium mb-8">
-            Ready to revolutionize app creation! 🚀
           </div>
         </motion.div>
       </div>
