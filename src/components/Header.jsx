@@ -73,7 +73,7 @@ const Header = () => {
           </motion.div>
           
           <motion.h1 
-            className="heading-xl mb-6 max-w-5xl gradient-text-premium"
+            className="heading-xl mb-8 max-w-5xl gradient-text-premium"
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.7 }}

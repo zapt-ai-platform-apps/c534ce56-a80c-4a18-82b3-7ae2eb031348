@@ -34,7 +34,7 @@
   }
   
   .heading-xl {
-    @apply text-4xl md:text-5xl lg:text-7xl font-extrabold leading-relaxed;
+    @apply text-4xl md:text-5xl lg:text-7xl font-extrabold leading-loose; /* Changed from leading-relaxed to leading-loose */
   }
   
   .heading-lg {
@@ -646,6 +646,7 @@
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   animation: textShine 3s linear infinite;
+  padding-bottom: 4px; /* Added padding at the bottom to prevent 'g' from being cut off */
 }
 
 @keyframes textShine {
