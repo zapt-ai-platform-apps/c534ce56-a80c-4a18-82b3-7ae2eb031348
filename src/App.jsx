@@ -39,8 +39,8 @@ export default function App() {
       <main className="flex-grow">
         <Header />
         <ExecutiveSummary />
-        <GrowthMetrics />
         <ProductProgress />
+        <GrowthMetrics />
         <CommercialTraction />
         <AppShowcase />
       </main>

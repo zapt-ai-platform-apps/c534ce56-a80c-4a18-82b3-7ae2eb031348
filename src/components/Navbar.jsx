@@ -5,8 +5,8 @@ import { motion, AnimatePresence } from 'framer-motion';
 const navLinks = [
   { to: "home", label: "Home" },
   { to: "summary", label: "Summary" },
-  { to: "vision", label: "YouTube Moment" },
   { to: "product", label: "Platform" },
+  { to: "vision", label: "YouTube Moment" },
   { to: "strategy", label: "Approach" },
   { to: "showcase", label: "App Examples" }
 ];
