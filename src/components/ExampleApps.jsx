@@ -7,49 +7,61 @@ const exampleApps = [
     title: "StatusPros",
     description: "Professional Availability Made Simple",
     url: "https://statuspros.zapt.app/",
-    users: "12,400",
-    growth: "+41%",
     imageRequest: "modern website for professional status sharing app showing availability calendar"
   },
   {
     title: "Parking Disputer",
     description: "Fight Unfair Parking Tickets with AI Assistance",
     url: "https://parkingdisputer.zapt.app/",
-    users: "9,850",
-    growth: "+64%",
     imageRequest: "app interface for challenging parking tickets with AI analysis"
   },
   {
     title: "Administrate",
     description: "A tool to help you manage your tasks efficiently",
     url: "https://www.administrate.co.uk/",
-    users: "8,230",
-    growth: "+38%",
     imageRequest: "modern task management dashboard with organized projects and timelines"
   },
   {
     title: "Football Subs",
     description: "A tool for managing a kids football team",
     url: "https://www.footballsubs.com/",
-    users: "6,740",
-    growth: "+27%",
     imageRequest: "sports team management app showing player roster and substitution tracking"
   },
   {
     title: "Construction Careers",
     description: "Explore construction industry roles matching your skills",
     url: "https://construct-career.zapt.app/",
-    users: "5,900",
-    growth: "+45%",
     imageRequest: "construction career finder showing skills matching and job opportunities"
   },
   {
     title: "Risk Assist",
     description: "AI-driven platform for risk identification and mitigation",
     url: "https://riskassist.org/",
-    users: "4,350",
-    growth: "+53%",
     imageRequest: "risk management dashboard with AI analysis and mitigation strategies"
+  },
+  {
+    title: "RFeye Deployment Planner",
+    description: "Plan and optimize your RF sensor deployments with our intuitive planning tool designed for security professionals.",
+    url: "https://731043d5-2669-47d6-86d3-d1ada27ff2ef.vercel.app/",
+    imageRequest: "RF sensor deployment planning tool with map interface and optimization controls"
+  },
+  {
+    title: "Customer Opportunity Analyzer",
+    description: "Simulates an LLM-powered recommendation engine that analyzes customer data to identify upsell opportunities",
+    url: "https://fd42be53-0813-492a-8514-42790c243971.vercel.app/",
+    imageRequest: "customer analytics dashboard showing upsell opportunities and recommendation engine"
+  },
+  {
+    title: "Insurance Needs Analyzer",
+    description: "Identify the right insurance coverage for you, your family, or your business with our easy-to-use needs analyzer.",
+    url: "https://020d1088-5e0c-40d4-929d-1c9185e52ec8.vercel.app/",
+    imageRequest: "insurance needs assessment interface with personalized recommendation calculator"
+  },
+  {
+    title: "Startup Impact Dashboard",
+    description: "Track and visualize your impact on startups",
+    url: "https://2bb6cab7-c817-440c-9113-c81325b823d8.vercel.app/",
+    imageRequest: "startup analytics dashboard showing impact metrics and visualization charts"
   }
 ];
 
@@ -82,9 +94,9 @@ const ExampleApps = () => {
     <section className="section bg-white" id="apps">
       <div className="container-custom">
         <div className="text-center mb-12">
-          <h2 className="heading-lg mb-4">Top Performing Apps</h2>
+          <h2 className="heading-lg mb-4">Build Apps Like These</h2>
           <p className="text-lg text-gray-600 max-w-3xl mx-auto">
-            Showcasing high-growth applications built on our platform
+            Discover what's possible with ZAPT - from productivity tools to AI-powered solutions
           </p>
         </div>
         
@@ -126,23 +138,13 @@ const AppCard = ({ app, variants }) => {
         <h3 className="text-xl font-bold mb-2">{app.title}</h3>
         <p className="text-gray-600 mb-4 flex-grow">{app.description}</p>
         
-        <div className="flex justify-between items-center mb-4">
-          <div>
-            <span className="text-sm text-gray-500">Monthly Active Users</span>
-            <div className="font-bold">{app.users}</div>
-          </div>
-          <div className="text-green-600 font-medium">
-            {app.growth}
-          </div>
-        </div>
-        
         <a 
           href={app.url} 
           target="_blank" 
           rel="noopener noreferrer"
           className="text-primary-500 font-medium hover:text-primary-600 app-link"
         >
-          View Details
+          View App
         </a>
       </div>
     </motion.div>

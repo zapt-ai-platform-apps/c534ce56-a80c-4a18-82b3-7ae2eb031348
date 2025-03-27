@@ -24,8 +24,8 @@ const Footer = () => {
             <ul className="space-y-2">
               <li className="text-gray-300">
                 <span className="block">Email:</span>
-                <a href="mailto:investors@zapt.ai" className="text-primary-300 hover:text-primary-200 transition-colors">
-                  investors@zapt.ai
+                <a href="mailto:hello@zapt.ai" className="text-primary-300 hover:text-primary-200 transition-colors">
+                  hello@zapt.ai
                 </a>
               </li>
               <li className="text-gray-300">
@@ -42,17 +42,17 @@ const Footer = () => {
             <ul className="space-y-2">
               <li>
                 <a href="https://www.zapt.ai" target="_blank" rel="noopener noreferrer" className="text-gray-300 hover:text-white transition-colors">
-                  Press Kit
+                  Documentation
                 </a>
               </li>
               <li>
                 <a href="https://www.zapt.ai" target="_blank" rel="noopener noreferrer" className="text-gray-300 hover:text-white transition-colors">
-                  Financial Reports
+                  Templates
                 </a>
               </li>
               <li>
                 <a href="https://www.zapt.ai" target="_blank" rel="noopener noreferrer" className="text-gray-300 hover:text-white transition-colors">
-                  Company Blog
+                  Blog
                 </a>
               </li>
             </ul>
@@ -61,7 +61,7 @@ const Footer = () => {
         
         <div className="border-t border-gray-700 mt-8 pt-8 flex flex-col md:flex-row justify-between items-center">
           <p className="text-gray-400 text-sm">
-            © {new Date().getFullYear()} ZAPT. All rights reserved. Confidential information for investors only.
+            © {new Date().getFullYear()} ZAPT. All rights reserved.
           </p>
         </div>
       </div>

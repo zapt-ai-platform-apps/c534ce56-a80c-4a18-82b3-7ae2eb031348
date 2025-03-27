@@ -12,7 +12,7 @@ const Header = () => {
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.7 }}
           >
-            <span className="gradient-text">ZAPT</span> Investor Update
+            <span className="gradient-text">Bring Your Ideas to Life</span>
           </motion.h1>
           
           <motion.p 
@@ -21,7 +21,7 @@ const Header = () => {
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.7, delay: 0.1 }}
           >
-            Performance highlights and strategic developments of our AI app creation platform
+            Create Apps in Minutes. No Coding Required
           </motion.p>
           
           <motion.div
@@ -30,11 +30,8 @@ const Header = () => {
             transition={{ duration: 0.7, delay: 0.2 }}
             className="flex flex-col md:flex-row gap-4"
           >
-            <a href="#metrics" className="btn btn-primary">
-              View Metrics
-            </a>
-            <a href="#product" className="btn btn-outline">
-              Product Updates
+            <a href="#apps" className="btn btn-primary cursor-pointer">
+              Get Started
             </a>
           </motion.div>
         </div>
