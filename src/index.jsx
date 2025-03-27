@@ -19,8 +19,8 @@ Sentry.init({
 window.progressierAppRuntimeSettings = {
   uid: import.meta.env.VITE_PUBLIC_APP_ID,
   icon512: "https://supabase.zapt.ai/storage/v1/render/image/public/icons/c7bd5333-787f-461f-ae9b-22acbc0ed4b0/55145115-0624-472f-96b9-d5d88aae355f.png?width=512&height=512",
-  name: 'New App',
-  shortName: 'New App',
+  name: 'Investor Update',
+  shortName: 'Investor Upd',
 };
 
 let progressierScript = document.createElement('script');
@@ -36,6 +36,29 @@ if (import.meta.env.VITE_PUBLIC_APP_ENV !== 'development') {
   script.setAttribute('data-website-id', import.meta.env.VITE_PUBLIC_UMAMI_WEBSITE_ID);
   document.head.appendChild(script);
 }
+
+// Initialize animation for scroll elements
+document.addEventListener('DOMContentLoaded', () => {
+  const animateElements = document.querySelectorAll('.animate-on-scroll');
+  
+  const observerOptions = {
+    threshold: 0.1,
+    rootMargin: '0px 0px -50px 0px'
+  };
+  
+  const observer = new IntersectionObserver((entries) => {
+    entries.forEach(entry => {
+      if (entry.isIntersecting) {
+        entry.target.classList.add('is-visible');
+        observer.unobserve(entry.target);
+      }
+    });
+  }, observerOptions);
+  
+  animateElements.forEach(el => {
+    observer.observe(el);
+  });
+});
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(

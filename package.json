@@ -1,7 +1,7 @@
 {
-    "name": "reactjs-vite-tailwind-vercel",
+    "name": "zapt-investor-update",
     "version": "1.0.0",
-    "description": "ReactJS app with Vite, Tailwind",
+    "description": "ZAPT Investor Update App",
     "type": "module",
     "scripts": {
         "dev": "vite",
@@ -11,8 +11,11 @@
     },
     "dependencies": {
         "@sentry/browser": "^8.41.0",
+        "framer-motion": "^10.16.4",
         "react": "^18.2.0",
-        "react-dom": "^18.2.0"
+        "react-dom": "^18.2.0",
+        "react-intersection-observer": "^9.5.2",
+        "react-scroll": "^1.8.9"
     },
     "devDependencies": {
         "@vitejs/plugin-react": "^4.3.4",
@@ -20,6 +23,7 @@
         "postcss": "^8.4.47",
         "tailwindcss": "^3.4.13",
         "vite": "^5.4.7",
-        "@sentry/vite-plugin": "^2.23.0"
+        "@sentry/vite-plugin": "^2.23.0",
+        "vitest": "^0.34.4"
     }
 }
