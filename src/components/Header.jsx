@@ -90,7 +90,7 @@ const Header = () => {
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.7, delay: 0.1 }}
           >
-            ZAPT's AI platform is now live, democratizing app creation just as YouTube revolutionized video
+            ZAPT's platform is now live
           </motion.p>
           
           <motion.div
