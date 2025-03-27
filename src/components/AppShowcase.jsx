@@ -4,12 +4,12 @@ import { motion } from 'framer-motion';
 
 const featuredApps = [
   {
-    title: "StatusPros",
-    description: "Professional Availability Made Simple",
-    url: "https://statuspros.zapt.app/",
-    imageRequest: "modern website for professional status sharing app showing availability calendar with sleek UI design",
-    customer: "Independent Consultant Network",
-    features: ["Availability scheduling", "Client booking", "Status updates"]
+    title: "Administrate",
+    description: "A tool to help you manage your tasks efficiently",
+    url: "https://www.administrate.co.uk/",
+    imageRequest: "task management dashboard with organized lists, calendar view, and productivity metrics",
+    customer: "Professional Task Managers",
+    features: ["Task organization", "Productivity tracking", "Calendar integration"]
   },
   {
     title: "Parking Disputer",
@@ -20,12 +20,12 @@ const featuredApps = [
     features: ["AI ticket analysis", "Case tracking", "Success rate: 67%"]
   },
   {
-    title: "Risk Assist",
-    description: "AI-driven platform for risk identification and mitigation",
-    url: "https://riskassist.org/",
-    imageRequest: "risk management dashboard with AI analysis and mitigation strategies, featuring data visualization and risk heatmaps",
-    customer: "Financial Services Provider",
-    features: ["Risk scanning", "Automated reports", "Compliance checks"]
+    title: "Football Subs",
+    description: "A tool for managing a kids football team",
+    url: "https://www.footballsubs.com/",
+    imageRequest: "sports team management interface showing player roster, substitution tracking, and match schedule for youth football",
+    customer: "Youth Sports Coaches",
+    features: ["Player tracking", "Substitution management", "Match scheduling"]
   },
   {
     title: "Insurance Needs Analyzer",
@@ -121,13 +121,14 @@ const AppCard = ({ app, variants }) => {
       className="card overflow-hidden h-full flex flex-col app-card shadow-lg"
       variants={variants}
     >
-      <div className="h-60 overflow-hidden">
-        <img 
-          src="PLACEHOLDER" 
-          alt={app.title} 
-          className="w-full h-full object-cover transition-transform duration-700 hover:scale-105"
-          data-image-request={app.imageRequest}
-        />
+      <div className="h-60 overflow-hidden bg-gray-100 flex items-center justify-center">
+        {/* Using icons instead of potentially broken images */}
+        <div className="text-6xl text-primary-400">
+          {app.title === "Administrate" && "📋"}
+          {app.title === "Parking Disputer" && "🚗"}
+          {app.title === "Football Subs" && "⚽"}
+          {app.title === "Insurance Needs Analyzer" && "🛡️"}
+        </div>
       </div>
       <div className="p-6 flex flex-col flex-grow">
         <div className="flex justify-between items-start mb-3">
