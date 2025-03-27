@@ -51,7 +51,7 @@ const GrowthMetrics = () => {
   };
 
   return (
-    <section className="section bg-white" id="metrics">
+    <section className="section bg-white" id="vision">
       <div className="container-custom">
         <div className="text-center mb-12">
           <h2 className="heading-lg mb-4">Our Vision</h2>
@@ -87,16 +87,19 @@ const GrowthMetrics = () => {
             <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
               <div className="prose prose-lg text-gray-700">
                 <p>
-                  Just as YouTube revolutionized video content creation by empowering millions of people to become creators, ZAPT aims to transform app development by enabling anyone to build powerful applications without coding knowledge.
+                  Just as YouTube revolutionized video creation by making video production accessible to everyone, we're doing the same for app creation.
                 </p>
-                <ul>
-                  <li><strong>Democratization:</strong> Making advanced technology accessible to everyone</li>
-                  <li><strong>Massive scale:</strong> Serving millions of users globally</li>
-                  <li><strong>Creator economy:</strong> Empowering people to build solutions and businesses</li>
-                  <li><strong>Network effects:</strong> Growing stronger as more people join and contribute</li>
-                </ul>
                 <p>
-                  We're at the beginning of this journey, but our vision is clear - to become the platform where millions of people create and deploy apps that solve problems, generate value, and transform industries.
+                  Before YouTube, video production was limited to professionals with expensive equipment and technical expertise. YouTube changed that forever.
+                </p>
+                <p>
+                  Similarly, app creation has been restricted to developers and those who can afford to hire them. Our platform changes that fundamental equation.
+                </p>
+                <p>
+                  And just like YouTube couldn't predict all the ways people would use video - from unboxing videos to online courses, product reviews to citizen journalism - we're seeing early users create apps for purposes we never imagined.
+                </p>
+                <p>
+                  The power isn't just in the technology - it's in putting that technology in the hands of people who understand specific problems that need solving, even if they've never written a line of code.
                 </p>
               </div>
               <div className="bg-white p-4 rounded-lg border border-gray-200">

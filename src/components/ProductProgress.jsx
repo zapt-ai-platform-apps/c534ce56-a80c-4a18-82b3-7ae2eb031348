@@ -2,33 +2,6 @@ import React from 'react';
 import { useInView } from 'react-intersection-observer';
 import { motion } from 'framer-motion';
 
-const milestones = [
-  {
-    date: "Just Launched",
-    title: "Platform Launch",
-    description: "Successfully launched the ZAPT platform with core AI app generation capabilities.",
-    completed: true
-  },
-  {
-    date: "Coming Soon",
-    title: "Enterprise Features",
-    description: "Enterprise-grade security, team collaboration, and customization options.",
-    completed: false
-  },
-  {
-    date: "Coming Soon",
-    title: "API Ecosystem",
-    description: "Expanded integration capabilities with major third-party services and APIs.",
-    completed: false
-  },
-  {
-    date: "Coming Soon",
-    title: "Advanced Analytics",
-    description: "Enhanced app analytics and performance monitoring tools for deeper insights.",
-    completed: false
-  }
-];
-
 const ProductProgress = () => {
   const [ref, inView] = useInView({
     threshold: 0.1,
@@ -46,35 +19,6 @@ const ProductProgress = () => {
         </div>
 
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 mb-16">
-          <motion.div
-            className="card p-6"
-            initial={{ opacity: 0, x: -20 }}
-            animate={inView ? { opacity: 1, x: 0 } : { opacity: 0, x: -20 }}
-            transition={{ duration: 0.7 }}
-          >
-            <h3 className="text-xl font-bold mb-4">Development Milestones</h3>
-            <div className="relative pl-8 space-y-6 before:absolute before:left-3 before:top-2 before:bottom-2 before:w-0.5 before:bg-gray-200">
-              {milestones.map((milestone, index) => (
-                <div key={index} className="relative">
-                  <div className={`absolute -left-8 top-1.5 w-6 h-6 rounded-full flex items-center justify-center ${milestone.completed ? 'bg-green-100' : 'bg-gray-100'}`}>
-                    {milestone.completed ? (
-                      <svg className="w-4 h-4 text-green-500" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
-                      </svg>
-                    ) : (
-                      <svg className="w-4 h-4 text-gray-400" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" />
-                      </svg>
-                    )}
-                  </div>
-                  <div className="text-sm text-gray-500 mb-1">{milestone.date}</div>
-                  <h4 className="font-medium mb-1">{milestone.title}</h4>
-                  <p className="text-sm text-gray-600">{milestone.description}</p>
-                </div>
-              ))}
-            </div>
-          </motion.div>
-
           <motion.div
             ref={ref}
             className="card p-6"
@@ -105,6 +49,40 @@ const ProductProgress = () => {
                 description="Built-in authentication options and security best practices for all generated apps."
               />
             </ul>
+          </motion.div>
+          
+          <motion.div
+            className="card p-6"
+            initial={{ opacity: 0, x: -20 }}
+            animate={inView ? { opacity: 1, x: 0 } : { opacity: 0, x: -20 }}
+            transition={{ duration: 0.7 }}
+          >
+            <h3 className="text-xl font-bold mb-4">How It Works</h3>
+            <div className="relative pl-8 space-y-6 before:absolute before:left-3 before:top-2 before:bottom-2 before:w-0.5 before:bg-gray-200">
+              <div className="relative">
+                <div className="absolute -left-8 top-1.5 w-6 h-6 rounded-full flex items-center justify-center bg-primary-100">
+                  <span className="text-primary-600 text-sm font-medium">1</span>
+                </div>
+                <h4 className="font-medium mb-1">Describe Your Update</h4>
+                <p className="text-sm text-gray-600">Provide the details of the features or changes you want in your app using our intuitive interface.</p>
+              </div>
+              
+              <div className="relative">
+                <div className="absolute -left-8 top-1.5 w-6 h-6 rounded-full flex items-center justify-center bg-primary-100">
+                  <span className="text-primary-600 text-sm font-medium">2</span>
+                </div>
+                <h4 className="font-medium mb-1">AI Creates Your App</h4>
+                <p className="text-sm text-gray-600">Our advanced AI processes your request and generates the updated code seamlessly.</p>
+              </div>
+              
+              <div className="relative">
+                <div className="absolute -left-8 top-1.5 w-6 h-6 rounded-full flex items-center justify-center bg-primary-100">
+                  <span className="text-primary-600 text-sm font-medium">3</span>
+                </div>
+                <h4 className="font-medium mb-1">Launch with Confidence</h4>
+                <p className="text-sm text-gray-600">Deploy your app effortlessly with all updates integrated and ready for use.</p>
+              </div>
+            </div>
           </motion.div>
         </div>
 

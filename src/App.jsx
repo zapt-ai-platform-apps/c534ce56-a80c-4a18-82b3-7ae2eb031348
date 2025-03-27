@@ -7,7 +7,6 @@ import ProductProgress from '@/components/ProductProgress';
 import CommercialTraction from '@/components/CommercialTraction';
 import AppShowcase from '@/components/AppShowcase';
 import MarketPosition from '@/components/MarketPosition';
-import Roadmap from '@/components/Roadmap';
 import ZaptBadge from '@/components/ZaptBadge';
 
 export default function App() {
@@ -46,7 +45,6 @@ export default function App() {
         <CommercialTraction />
         <AppShowcase />
         <MarketPosition />
-        <Roadmap />
       </main>
       
       <ZaptBadge />

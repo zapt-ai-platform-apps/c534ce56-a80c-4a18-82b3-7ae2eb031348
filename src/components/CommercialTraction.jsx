@@ -9,7 +9,7 @@ const CommercialTraction = () => {
   });
 
   return (
-    <section className="section bg-gray-50" id="traction">
+    <section className="section bg-gray-50" id="strategy">
       <div className="container-custom">
         <div className="text-center mb-12">
           <h2 className="heading-lg mb-4">Commercial Strategy</h2>
@@ -46,6 +46,7 @@ const CommercialTraction = () => {
         </div>
 
         <motion.div
+          ref={ref}
           className="card p-6"
           initial={{ opacity: 0, y: 20 }}
           animate={inView ? { opacity: 1, y: 0 } : { opacity: 0, y: 20 }}

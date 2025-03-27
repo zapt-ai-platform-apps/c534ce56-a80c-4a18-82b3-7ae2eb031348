@@ -31,11 +31,12 @@ const Navbar = () => {
         
         <div className="hidden md:flex space-x-8">
           <NavLink to="home">Home</NavLink>
+          <NavLink to="summary">Summary</NavLink>
+          <NavLink to="vision">Vision</NavLink>
           <NavLink to="product">Product</NavLink>
-          <NavLink to="traction">Traction</NavLink>
+          <NavLink to="strategy">Strategy</NavLink>
           <NavLink to="showcase">Showcase</NavLink>
-          <NavLink to="market">Market</NavLink>
-          <NavLink to="roadmap">Roadmap</NavLink>
+          <NavLink to="market">Features</NavLink>
         </div>
       </div>
     </nav>
