@@ -33,12 +33,12 @@ const ProductProgress = () => {
           
           <div className="flex flex-col relative">
             <div className="w-full">
-              <h3 className="text-2xl font-bold mb-5 text-white">How It Works</h3>
-              <p className="text-gray-300 mb-6 leading-relaxed">
+              <h3 className="text-2xl font-bold mb-5 text-white text-center">How It Works</h3>
+              <p className="text-gray-300 mb-6 leading-relaxed text-center mx-auto max-w-3xl">
                 Just like YouTube revolutionized video creation with a simple "upload" button, we've made app creation as simple as describing what you want.
               </p>
               
-              <div className="flex flex-wrap gap-4 mt-8 justify-center md:justify-start">
+              <div className="flex flex-wrap gap-4 mt-8 justify-center">
                 <div className="flex items-center bg-white/5 backdrop-blur-sm px-4 py-3 rounded-lg border border-white/10">
                   <span className="text-2xl mr-3">✍️</span>
                   <div>
@@ -76,7 +76,7 @@ const ProductProgress = () => {
                 </div>
               </div>
               
-              <div className="mt-8 p-6 bg-white/5 backdrop-blur-sm rounded-lg border border-primary-500/20">
+              <div className="mt-8 p-6 bg-white/5 backdrop-blur-sm rounded-lg border border-primary-500/20 max-w-3xl mx-auto">
                 <p className="text-sm text-gray-300 italic">
                   "I need an app that helps dog owners find nearby dog-friendly parks and connect with other owners."
                 </p>
@@ -85,13 +85,13 @@ const ProductProgress = () => {
                 </p>
               </div>
               
-              <div className="mt-8 flex justify-center md:justify-start">
+              <div className="mt-8 flex justify-center">
                 <div className="bg-primary-500/10 p-4 rounded-lg border border-primary-500/20 w-full md:max-w-md">
-                  <h4 className="font-bold text-white mb-2">Ready for Everyone</h4>
-                  <p className="text-sm text-gray-300">
+                  <h4 className="font-bold text-white mb-2 text-center">Ready for Everyone</h4>
+                  <p className="text-sm text-gray-300 text-center">
                     Just like WordPress revolutionized website creation, ZAPT is democratizing app development—no coding knowledge required.
                   </p>
-                  <div className="mt-4 flex justify-end">
+                  <div className="mt-4 flex justify-center">
                     <div className="px-3 py-1 bg-primary-500/20 text-primary-300 text-xs rounded-full">
                       Create, Deploy, Share
                     </div>

@@ -143,7 +143,7 @@ const AppCard = ({ app, variants }) => {
             href={app.url} 
             target="_blank" 
             rel="noopener noreferrer"
-            className="text-primary-300 font-medium hover:text-primary-200 app-link flex items-center"
+            className="text-primary-300 font-medium hover:text-primary-200 app-link inline-flex items-center"
           >
             <span>View App</span>
             <svg xmlns="http://www.w3.org/2000/svg" className="h-4 w-4 ml-1" fill="none" viewBox="0 0 24 24" stroke="currentColor">
