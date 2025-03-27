@@ -1,16 +1,15 @@
 import React, { useEffect } from 'react';
-import Hero from '@/components/Hero';
+import Navbar from '@/components/Navbar';
+import Header from '@/components/Header';
+import KeyMetrics from '@/components/KeyMetrics';
+import GrowthMetrics from '@/components/GrowthMetrics';
+import ProductUpdates from '@/components/ProductUpdates';
+import CommercialTraction from '@/components/CommercialTraction';
 import ExampleApps from '@/components/ExampleApps';
-import Benefits from '@/components/Benefits';
-import HowItWorks from '@/components/HowItWorks';
-import VisionSection from '@/components/VisionSection';
-import AppUsageStats from '@/components/AppUsageStats';
-import DemoApps from '@/components/DemoApps';
-import CallToAction from '@/components/CallToAction';
+import FutureRoadmap from '@/components/FutureRoadmap';
+import MarketPosition from '@/components/MarketPosition';
 import Footer from '@/components/Footer';
 import ZaptBadge from '@/components/ZaptBadge';
-import Navbar from '@/components/Navbar';
-import { useInView } from 'react-intersection-observer';
 
 export default function App() {
   // Initialize animation for elements with the animate-on-scroll class
@@ -41,14 +40,14 @@ export default function App() {
       <Navbar />
       
       <main className="flex-grow">
-        <Hero />
+        <Header />
+        <KeyMetrics />
+        <GrowthMetrics />
+        <ProductUpdates />
+        <CommercialTraction />
         <ExampleApps />
-        <Benefits />
-        <HowItWorks />
-        <VisionSection />
-        <AppUsageStats />
-        <DemoApps />
-        <CallToAction />
+        <FutureRoadmap />
+        <MarketPosition />
       </main>
       
       <Footer />

@@ -20,21 +20,18 @@ const Footer = () => {
           </div>
           
           <div>
-            <h3 className="text-lg font-bold mb-4">Company</h3>
+            <h3 className="text-lg font-bold mb-4">Contact</h3>
             <ul className="space-y-2">
-              <li>
-                <a href="https://www.zapt.ai" target="_blank" rel="noopener noreferrer" className="text-gray-300 hover:text-white transition-colors">
-                  Home
+              <li className="text-gray-300">
+                <span className="block">Email:</span>
+                <a href="mailto:investors@zapt.ai" className="text-primary-300 hover:text-primary-200 transition-colors">
+                  investors@zapt.ai
                 </a>
               </li>
-              <li>
-                <a href="https://www.zapt.ai" target="_blank" rel="noopener noreferrer" className="text-gray-300 hover:text-white transition-colors">
-                  About
-                </a>
-              </li>
-              <li>
-                <a href="https://www.zapt.ai" target="_blank" rel="noopener noreferrer" className="text-gray-300 hover:text-white transition-colors">
-                  Contact
+              <li className="text-gray-300">
+                <span className="block">Website:</span>
+                <a href="https://www.zapt.ai" target="_blank" rel="noopener noreferrer" className="text-primary-300 hover:text-primary-200 transition-colors">
+                  www.zapt.ai
                 </a>
               </li>
             </ul>
@@ -45,17 +42,17 @@ const Footer = () => {
             <ul className="space-y-2">
               <li>
                 <a href="https://www.zapt.ai" target="_blank" rel="noopener noreferrer" className="text-gray-300 hover:text-white transition-colors">
-                  Documentation
+                  Press Kit
                 </a>
               </li>
               <li>
                 <a href="https://www.zapt.ai" target="_blank" rel="noopener noreferrer" className="text-gray-300 hover:text-white transition-colors">
-                  Examples
+                  Financial Reports
                 </a>
               </li>
               <li>
                 <a href="https://www.zapt.ai" target="_blank" rel="noopener noreferrer" className="text-gray-300 hover:text-white transition-colors">
-                  Pricing
+                  Company Blog
                 </a>
               </li>
             </ul>
@@ -64,17 +61,8 @@ const Footer = () => {
         
         <div className="border-t border-gray-700 mt-8 pt-8 flex flex-col md:flex-row justify-between items-center">
           <p className="text-gray-400 text-sm">
-            © {new Date().getFullYear()} ZAPT. All rights reserved.
+            © {new Date().getFullYear()} ZAPT. All rights reserved. Confidential information for investors only.
           </p>
-          
-          <div className="flex space-x-4 mt-4 md:mt-0">
-            <a href="https://www.zapt.ai" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-white transition-colors">
-              Privacy Policy
-            </a>
-            <a href="https://www.zapt.ai" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-white transition-colors">
-              Terms of Service
-            </a>
-          </div>
         </div>
       </div>
     </footer>
