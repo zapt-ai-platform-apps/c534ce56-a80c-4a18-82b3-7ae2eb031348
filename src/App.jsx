@@ -8,6 +8,8 @@ import CommercialTraction from '@/components/CommercialTraction';
 import AppShowcase from '@/components/AppShowcase';
 import MarketPosition from '@/components/MarketPosition';
 import ZaptBadge from '@/components/ZaptBadge';
+import DigitizingEverything from '@/components/DigitizingEverything';
+import Footer from '@/components/Footer';
 
 export default function App() {
   // Initialize animation for elements with the animate-on-scroll class
@@ -40,6 +42,7 @@ export default function App() {
       <main className="flex-grow">
         <Header />
         <ExecutiveSummary />
+        <DigitizingEverything />
         <GrowthMetrics />
         <ProductProgress />
         <CommercialTraction />
@@ -47,6 +50,7 @@ export default function App() {
         <MarketPosition />
       </main>
       
+      <Footer />
       <ZaptBadge />
     </div>
   );
