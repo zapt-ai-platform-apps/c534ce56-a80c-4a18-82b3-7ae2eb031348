@@ -8,52 +8,52 @@ const CommercialTraction = () => {
     triggerOnce: true,
   });
 
-  // Updated growth principles with video strategy focus
+  // Updated growth principles with concise descriptions
   const growthPrinciples = [
     {
       title: "Content Demonstration",
       icon: "🎬",
-      description: "Creating videos showing the platform in action, building real-world applications to showcase speed and simplicity."
+      description: "Creating videos that showcase building real-world applications with our platform."
     },
     {
       title: "Multi-Platform Approach",
       icon: "📱",
-      description: "Distributing tailored content across YouTube (full demos), Twitter/X (short clips), and LinkedIn (business-focused versions)."
+      description: "Distributing content across YouTube (demos), Twitter/X (clips), and LinkedIn (business focus)."
     },
     {
       title: "Audience-Led Iteration",
       icon: "🔄",
-      description: "Monitoring engagement, responding to every comment, and creating follow-up content based on audience feedback and requests."
+      description: "Creating follow-up content based on viewer engagement and direct feedback."
     },
     {
       title: "Value-First Showcasing",
       icon: "💎",
-      description: "Letting the product capabilities speak for themselves through authentic demonstration rather than marketing speak."
+      description: "Letting the product capabilities speak through authentic demonstration."
     }
   ];
 
-  // Growth phases data - updated for video strategy
+  // Growth phases data - more concise
   const growthPhases = [
     {
       number: "01",
       title: "Initial Content Creation",
-      description: "Build foundation of demonstration videos across platforms",
+      description: "Build foundation of demonstration videos",
       status: "In Progress",
-      details: "Creating videos that show building different apps with ZAPT, focusing on speed, simplicity, and real-world applications."
+      details: "Creating videos showing different apps built with ZAPT."
     },
     {
       number: "02",
       title: "Audience Engagement",
-      description: "Respond to feedback and create requested follow-up content",
+      description: "Respond to feedback and create requested content",
       status: "Upcoming",
-      details: "Monitoring which videos generate the most engagement, answering questions, and creating content that addresses specific viewer requests."
+      details: "Monitoring engagement and answering questions from viewers."
     },
     {
       number: "03",
       title: "Community Building",
-      description: "Foster a community of creators sharing their ZAPT apps",
+      description: "Foster a community of creators",
       status: "Upcoming",
-      details: "Creating content series that build on previous videos, showcasing different use cases, and gradually introducing self-serve and premium options."
+      details: "Creating content series that showcase different use cases."
     }
   ];
 
@@ -77,143 +77,132 @@ const CommercialTraction = () => {
           animate={inView ? { opacity: 1, y: 0 } : { opacity: 0, y: 20 }}
           transition={{ duration: 0.7 }}
         >
-          {/* Video Demonstration Strategy - NEW */}
+          {/* Video Demonstration Strategy - More Concise */}
           <div className="bg-white/5 backdrop-blur-sm p-6 rounded-xl border border-white/10 mb-10">
             <h3 className="text-xl font-bold mb-4 text-white">Video Demonstration Strategy</h3>
             <p className="text-gray-300 mb-6">
-              Instead of relying on traditional marketing, we're building an audience by showing people exactly 
-              what ZAPT can do. We're creating videos demonstrating how to build different apps with ZAPT, 
-              focusing on showcasing speed and simplicity with real-world applications.
+              We're building an audience by showing people exactly what ZAPT can do through videos that demonstrate 
+              building real-world applications, focusing on speed and simplicity.
             </p>
             
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
               <div className="bg-white/5 backdrop-blur-sm p-5 rounded-lg border border-white/10">
-                <h4 className="text-lg font-bold mb-3 text-white">Content Messaging Themes:</h4>
+                <h4 className="text-lg font-bold mb-3 text-white">Content Messaging:</h4>
                 <ul className="space-y-3">
                   <li className="flex items-start">
                     <svg className="w-5 h-5 text-primary-300 mt-0.5 flex-shrink-0 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
                     </svg>
-                    <span className="text-gray-300">"Build without coding" - Emphasizing accessibility to non-technical users</span>
+                    <span className="text-gray-300">"Build without coding" - Accessible to non-technical users</span>
                   </li>
                   <li className="flex items-start">
                     <svg className="w-5 h-5 text-primary-300 mt-0.5 flex-shrink-0 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
                     </svg>
-                    <span className="text-gray-300">"Minutes not months" - Highlighting the speed compared to traditional development</span>
+                    <span className="text-gray-300">"Minutes not months" - Speed compared to traditional development</span>
                   </li>
                   <li className="flex items-start">
                     <svg className="w-5 h-5 text-primary-300 mt-0.5 flex-shrink-0 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
                     </svg>
-                    <span className="text-gray-300">"Anyone can do this" - Positioning as a tool for the masses, not just developers</span>
-                  </li>
-                  <li className="flex items-start">
-                    <svg className="w-5 h-5 text-primary-300 mt-0.5 flex-shrink-0 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
-                    </svg>
-                    <span className="text-gray-300">"Solve real problems" - Focusing on practical applications, not just tech demos</span>
+                    <span className="text-gray-300">"Solve real problems" - Focusing on practical applications</span>
                   </li>
                 </ul>
               </div>
               
               <div className="bg-white/5 backdrop-blur-sm p-5 rounded-lg border border-white/10">
-                <h4 className="text-lg font-bold mb-3 text-white">Multi-Platform Distribution:</h4>
+                <h4 className="text-lg font-bold mb-3 text-white">Distribution Channels:</h4>
                 <ul className="space-y-3">
                   <li className="flex items-start">
                     <svg className="w-5 h-5 text-primary-300 mt-0.5 flex-shrink-0 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
                     </svg>
-                    <span className="text-gray-300"><span className="font-medium text-white">YouTube:</span> Full demonstrations (3-5 minutes) showing complete build process</span>
+                    <span className="text-gray-300"><span className="font-medium text-white">YouTube:</span> Full demonstrations (3-5 minutes)</span>
                   </li>
                   <li className="flex items-start">
                     <svg className="w-5 h-5 text-primary-300 mt-0.5 flex-shrink-0 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
                     </svg>
-                    <span className="text-gray-300"><span className="font-medium text-white">Twitter/X:</span> Short clips (30-60 seconds) highlighting most impressive moments</span>
+                    <span className="text-gray-300"><span className="font-medium text-white">Twitter/X:</span> Short clips (30-60 seconds)</span>
                   </li>
                   <li className="flex items-start">
                     <svg className="w-5 h-5 text-primary-300 mt-0.5 flex-shrink-0 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
                     </svg>
-                    <span className="text-gray-300"><span className="font-medium text-white">LinkedIn:</span> Business-focused versions emphasizing time/cost savings</span>
+                    <span className="text-gray-300"><span className="font-medium text-white">LinkedIn:</span> Business-focused versions</span>
                   </li>
                 </ul>
               </div>
             </div>
           </div>
 
-          {/* Action Plans - Updated for video strategy */}
-          <div className="bg-white/5 backdrop-blur-sm p-6 rounded-xl border border-white/10 mb-10">
-            <h3 className="text-xl font-bold mb-4 text-white">Implementation Plan</h3>
+          {/* Action Plans - More Concise */}
+          <div className="grid grid-cols-1 lg:grid-cols-3 gap-6 mb-10">
+            <div className="bg-white/5 backdrop-blur-sm p-5 rounded-lg border border-white/10">
+              <div className="mb-4 w-12 h-12 rounded-lg bg-primary-500/20 flex items-center justify-center text-xl">
+                🎥
+              </div>
+              <h4 className="text-lg font-bold mb-2 text-white">Content Creation</h4>
+              <ul className="space-y-2 text-gray-300">
+                <li className="flex items-start">
+                  <span className="text-xs bg-primary-500/20 text-primary-300 p-1 rounded mr-2 mt-0.5">1</span>
+                  <span>Record platform demonstrations</span>
+                </li>
+                <li className="flex items-start">
+                  <span className="text-xs bg-primary-500/20 text-primary-300 p-1 rounded mr-2 mt-0.5">2</span>
+                  <span>Focus on simple screen recording</span>
+                </li>
+                <li className="flex items-start">
+                  <span className="text-xs bg-primary-500/20 text-primary-300 p-1 rounded mr-2 mt-0.5">3</span>
+                  <span>Show authentic process</span>
+                </li>
+              </ul>
+            </div>
             
-            <div className="grid grid-cols-1 lg:grid-cols-3 gap-6">
-              <div className="bg-white/5 backdrop-blur-sm p-5 rounded-lg border border-white/10">
-                <div className="mb-4 w-12 h-12 rounded-lg bg-primary-500/20 flex items-center justify-center text-xl">
-                  🎥
-                </div>
-                <h4 className="text-lg font-bold mb-2 text-white">Content Creation</h4>
-                <ul className="space-y-2 text-gray-300">
-                  <li className="flex items-start">
-                    <span className="text-xs bg-primary-500/20 text-primary-300 p-1 rounded mr-2 mt-0.5">1</span>
-                    <span>Record platform demonstrations building real apps</span>
-                  </li>
-                  <li className="flex items-start">
-                    <span className="text-xs bg-primary-500/20 text-primary-300 p-1 rounded mr-2 mt-0.5">2</span>
-                    <span>Focus on simple screen recording with minimal editing</span>
-                  </li>
-                  <li className="flex items-start">
-                    <span className="text-xs bg-primary-500/20 text-primary-300 p-1 rounded mr-2 mt-0.5">3</span>
-                    <span>Show authentic process including any limitations</span>
-                  </li>
-                </ul>
+            <div className="bg-white/5 backdrop-blur-sm p-5 rounded-lg border border-white/10">
+              <div className="mb-4 w-12 h-12 rounded-lg bg-primary-500/20 flex items-center justify-center text-xl">
+                📊
               </div>
-              
-              <div className="bg-white/5 backdrop-blur-sm p-5 rounded-lg border border-white/10">
-                <div className="mb-4 w-12 h-12 rounded-lg bg-primary-500/20 flex items-center justify-center text-xl">
-                  📊
-                </div>
-                <h4 className="text-lg font-bold mb-2 text-white">Audience Analysis</h4>
-                <ul className="space-y-2 text-gray-300">
-                  <li className="flex items-start">
-                    <span className="text-xs bg-primary-500/20 text-primary-300 p-1 rounded mr-2 mt-0.5">1</span>
-                    <span>Monitor which videos generate the most engagement</span>
-                  </li>
-                  <li className="flex items-start">
-                    <span className="text-xs bg-primary-500/20 text-primary-300 p-1 rounded mr-2 mt-0.5">2</span>
-                    <span>Note specific questions and requests in comments</span>
-                  </li>
-                  <li className="flex items-start">
-                    <span className="text-xs bg-primary-500/20 text-primary-300 p-1 rounded mr-2 mt-0.5">3</span>
-                    <span>Double down on formats and content that resonates most</span>
-                  </li>
-                </ul>
+              <h4 className="text-lg font-bold mb-2 text-white">Audience Analysis</h4>
+              <ul className="space-y-2 text-gray-300">
+                <li className="flex items-start">
+                  <span className="text-xs bg-primary-500/20 text-primary-300 p-1 rounded mr-2 mt-0.5">1</span>
+                  <span>Monitor engagement metrics</span>
+                </li>
+                <li className="flex items-start">
+                  <span className="text-xs bg-primary-500/20 text-primary-300 p-1 rounded mr-2 mt-0.5">2</span>
+                  <span>Note questions in comments</span>
+                </li>
+                <li className="flex items-start">
+                  <span className="text-xs bg-primary-500/20 text-primary-300 p-1 rounded mr-2 mt-0.5">3</span>
+                  <span>Double down on what works</span>
+                </li>
+              </ul>
+            </div>
+            
+            <div className="bg-white/5 backdrop-blur-sm p-5 rounded-lg border border-white/10">
+              <div className="mb-4 w-12 h-12 rounded-lg bg-primary-500/20 flex items-center justify-center text-xl">
+                🚀
               </div>
-              
-              <div className="bg-white/5 backdrop-blur-sm p-5 rounded-lg border border-white/10">
-                <div className="mb-4 w-12 h-12 rounded-lg bg-primary-500/20 flex items-center justify-center text-xl">
-                  🚀
-                </div>
-                <h4 className="text-lg font-bold mb-2 text-white">Building Momentum</h4>
-                <ul className="space-y-2 text-gray-300">
-                  <li className="flex items-start">
-                    <span className="text-xs bg-primary-500/20 text-primary-300 p-1 rounded mr-2 mt-0.5">1</span>
-                    <span>Respond to every comment and question from viewers</span>
-                  </li>
-                  <li className="flex items-start">
-                    <span className="text-xs bg-primary-500/20 text-primary-300 p-1 rounded mr-2 mt-0.5">2</span>
-                    <span>Create content series that build on previous videos</span>
-                  </li>
-                  <li className="flex items-start">
-                    <span className="text-xs bg-primary-500/20 text-primary-300 p-1 rounded mr-2 mt-0.5">3</span>
-                    <span>Showcase different use cases based on viewer requests</span>
-                  </li>
-                </ul>
-              </div>
+              <h4 className="text-lg font-bold mb-2 text-white">Building Momentum</h4>
+              <ul className="space-y-2 text-gray-300">
+                <li className="flex items-start">
+                  <span className="text-xs bg-primary-500/20 text-primary-300 p-1 rounded mr-2 mt-0.5">1</span>
+                  <span>Respond to every comment</span>
+                </li>
+                <li className="flex items-start">
+                  <span className="text-xs bg-primary-500/20 text-primary-300 p-1 rounded mr-2 mt-0.5">2</span>
+                  <span>Create content series</span>
+                </li>
+                <li className="flex items-start">
+                  <span className="text-xs bg-primary-500/20 text-primary-300 p-1 rounded mr-2 mt-0.5">3</span>
+                  <span>Showcase different use cases</span>
+                </li>
+              </ul>
             </div>
           </div>
 
-          {/* Growth principles grid - Updated for video strategy */}
+          {/* Growth principles grid - More Concise */}
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-10">
             {growthPrinciples.map((principle, index) => (
               <motion.div 
@@ -236,7 +225,7 @@ const CommercialTraction = () => {
             ))}
           </div>
 
-          {/* Growth Phases section - Enhanced with more specifics for video strategy */}
+          {/* Growth Phases section - More Concise */}
           <div className="bg-white/5 backdrop-blur-sm rounded-xl border border-white/10 overflow-hidden">
             <div className="p-6 md:p-8">
               <h4 className="text-2xl font-bold mb-6 text-white">Growth Implementation Phases</h4>
@@ -268,7 +257,6 @@ const CommercialTraction = () => {
                       </div>
                     </div>
                     
-                    {/* Only add the connector line between items, not after the last one */}
                     {index < growthPhases.length - 1 && (
                       <div className="hidden lg:block absolute top-1/2 -right-3 w-6 h-0.5 bg-gradient-to-r from-primary-500/50 to-transparent z-0"></div>
                     )}
@@ -286,57 +274,9 @@ const CommercialTraction = () => {
                   <div>
                     <h5 className="text-xl font-bold mb-2 text-white">Our Key Insight</h5>
                     <p className="text-gray-300">
-                      The goal is to let the product capabilities speak for themselves through demonstration, 
-                      build an engaged audience through responsive content creation, and adapt based on what resonates with viewers.
+                      Let the product speak for itself through demonstration, build an engaged audience, 
+                      and adapt based on what resonates with viewers.
                     </p>
-                  </div>
-                </div>
-              </div>
-            </div>
-            
-            <div className="border-t border-white/10 p-6 md:p-8 bg-gradient-to-r from-primary-500/5 to-secondary-500/5">
-              <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
-                <div className="col-span-1 md:col-span-2">
-                  <h5 className="text-xl font-bold mb-4 text-white">Focus on Quality Over Production Value</h5>
-                  <p className="text-gray-300 mb-4">
-                    We're prioritizing authenticity and real value demonstrations over polished marketing:
-                  </p>
-                  <ul className="space-y-2 mb-4">
-                    <li className="flex items-start">
-                      <svg className="w-5 h-5 text-primary-300 mt-0.5 flex-shrink-0 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
-                      </svg>
-                      <span className="text-gray-300">Simple screen recording with minimal editing</span>
-                    </li>
-                    <li className="flex items-start">
-                      <svg className="w-5 h-5 text-primary-300 mt-0.5 flex-shrink-0 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
-                      </svg>
-                      <span className="text-gray-300">Focus on demonstration rather than production quality</span>
-                    </li>
-                    <li className="flex items-start">
-                      <svg className="w-5 h-5 text-primary-300 mt-0.5 flex-shrink-0 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
-                      </svg>
-                      <span className="text-gray-300">Consistent content creation rather than infrequent polished pieces</span>
-                    </li>
-                  </ul>
-                </div>
-                <div className="col-span-1 flex items-center justify-center">
-                  <div className="p-6 bg-white/5 backdrop-blur-sm rounded-full w-32 h-32 flex items-center justify-center">
-                    <motion.div
-                      animate={{ 
-                        scale: [1, 1.1, 1],
-                        rotate: [0, 5, 0, -5, 0]
-                      }}
-                      transition={{ 
-                        duration: 4,
-                        repeat: Infinity,
-                        repeatType: "loop"
-                      }}
-                    >
-                      <div className="text-5xl">📹</div>
-                    </motion.div>
                   </div>
                 </div>
               </div>

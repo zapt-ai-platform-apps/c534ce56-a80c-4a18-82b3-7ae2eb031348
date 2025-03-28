@@ -6,7 +6,7 @@ const navLinks = [
   { to: "home", label: "Home" },
   { to: "summary", label: "Summary" },
   { to: "product", label: "Platform" },
-  { to: "vision", label: "YouTube Moment" },
+  { to: "vision", label: "Digital Transformation" },
   { to: "strategy", label: "Approach" },
   { to: "showcase", label: "App Examples" }
 ];

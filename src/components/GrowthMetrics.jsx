@@ -6,7 +6,7 @@ const visionPoints = [
   {
     title: "Mass Market",
     icon: "🚀",
-    description: "We're bringing app creation to everyone, just like YouTube brought video creation to the masses."
+    description: "We're bringing app creation to everyone by making it accessible to non-technical users."
   },
   {
     title: "Revolution",
@@ -52,9 +52,9 @@ const GrowthMetrics = () => {
           <span className="inline-block px-4 py-1 bg-white/5 backdrop-blur-sm rounded-full text-primary-300 text-sm font-medium mb-4 border border-primary-500/20">
             The Big Idea
           </span>
-          <h2 className="heading-lg mb-4 text-white">Our YouTube Revolution</h2>
+          <h2 className="heading-lg mb-4 text-white">Digital Transformation</h2>
           <p className="text-lg text-gray-300 max-w-3xl mx-auto">
-            How we're revolutionizing app creation the way YouTube transformed video
+            How we're revolutionizing app creation for everyone
           </p>
         </div>
 
@@ -87,27 +87,27 @@ const GrowthMetrics = () => {
               <div className="hidden lg:block absolute -bottom-10 -right-10 w-40 h-40 bg-primary-500/10 rounded-full mix-blend-screen filter blur-3xl opacity-50 animate-blob animation-delay-2000"></div>
               <div className="hidden lg:block absolute top-20 right-20 w-40 h-40 bg-secondary-500/10 rounded-full mix-blend-screen filter blur-3xl opacity-50 animate-blob animation-delay-4000"></div>
             
-              <h3 className="text-2xl font-bold mb-6 text-center text-white">Before YouTube vs. After YouTube</h3>
+              <h3 className="text-2xl font-bold mb-6 text-center text-white">The App Creation Revolution</h3>
               <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-12">
                 <div className="prose prose-lg text-gray-300">
                   <div className="bg-white/5 backdrop-blur-sm p-6 rounded-lg border border-primary-500/20 mb-6">
-                    <h4 className="font-bold text-primary-300 mb-3">Remember When Video Was Hard?</h4>
+                    <h4 className="font-bold text-primary-300 mb-3">Breaking Down Barriers</h4>
                     <p className="text-gray-300 leading-relaxed">
-                      Before YouTube, video production required:
+                      Traditional app development requires:
                     </p>
                     <ul className="mt-3 space-y-1 text-gray-300">
-                      <li>Expensive equipment</li>
                       <li>Technical expertise</li>
-                      <li>Complex distribution</li>
-                      <li>Limited audience reach</li>
+                      <li>Substantial investment</li>
+                      <li>Months of development time</li>
+                      <li>Ongoing maintenance costs</li>
                     </ul>
                   </div>
                   
                   <p>
-                    Similarly, app creation has been restricted to developers and those who can afford to hire them. Our platform changes that fundamental equation.
+                    App creation has been restricted to developers and those who can afford to hire them. Our platform changes that fundamental equation.
                   </p>
                   <p>
-                    <strong className="text-white">We're the YouTube of apps</strong> - making creation accessible to everyone, enabling uses we can't even imagine yet, and creating a whole new world of possibilities.
+                    <strong className="text-white">We're democratizing technology</strong> - making creation accessible to everyone, enabling uses we can't even imagine yet, and creating a whole new world of possibilities.
                   </p>
                 </div>
                 <div>
