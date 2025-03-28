@@ -8,8 +8,8 @@ const CommercialTraction = () => {
     triggerOnce: true,
   });
 
-  // New data structure for accessibility principles
-  const accessibilityPrinciples = [
+  // New data structure for growth principles
+  const growthPrinciples = [
     {
       title: "Simplified Creation",
       icon: "🔮",
@@ -61,7 +61,7 @@ const CommercialTraction = () => {
           <span className="inline-block px-4 py-1 bg-white/5 backdrop-blur-sm rounded-full text-primary-300 text-sm font-medium mb-4 border border-primary-500/20">
             Our Market Approach
           </span>
-          <h2 className="heading-lg mb-4 text-white">The Democratization Strategy</h2>
+          <h2 className="heading-lg mb-4 text-white">Our Growth Strategy</h2>
           <p className="text-lg text-gray-300 max-w-3xl mx-auto">
             Creating a world where anyone can build powerful digital solutions
           </p>
@@ -74,29 +74,9 @@ const CommercialTraction = () => {
           animate={inView ? { opacity: 1, y: 0 } : { opacity: 0, y: 20 }}
           transition={{ duration: 0.7 }}
         >
-          {/* Main heading and introduction */}
-          <div className="mb-10">
-            <h3 className="text-2xl md:text-3xl font-bold mb-6 text-white text-center">
-              Innovation Through Accessibility
-            </h3>
-            <div className="max-w-3xl mx-auto text-center">
-              <p className="text-gray-300 text-lg">
-                Throughout history, the most transformative technologies are those that become accessible to everyone. 
-                From the printing press to personal computers, democratization drives revolution.
-              </p>
-              <div className="mt-6 flex justify-center">
-                <div className="px-5 py-2 bg-primary-500/20 rounded-lg border border-primary-500/30">
-                  <p className="text-primary-300 font-medium">
-                    We're creating the YouTube moment for app development
-                  </p>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          {/* Accessibility principles grid - IMPROVED FOR MOBILE */}
+          {/* Growth principles grid - Improved for mobile */}
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-10">
-            {accessibilityPrinciples.map((principle, index) => (
+            {growthPrinciples.map((principle, index) => (
               <motion.div 
                 key={index}
                 className="bg-white/5 backdrop-blur-sm p-6 rounded-xl border border-white/10 hover-3d"
@@ -119,7 +99,7 @@ const CommercialTraction = () => {
 
           {/* Impact visualization */}
           <div className="bg-gradient-to-r from-primary-500/10 to-secondary-500/10 p-6 rounded-xl border border-white/10 mb-10">
-            <h4 className="text-xl font-bold mb-4 text-white text-center">The Accessibility Impact</h4>
+            <h4 className="text-xl font-bold mb-4 text-white text-center">Market Transformation</h4>
             
             <div className="flex flex-col md:flex-row gap-6 items-center justify-center">
               <div className="bg-white/5 backdrop-blur-sm p-5 rounded-lg border border-white/10 md:w-1/3">
@@ -209,10 +189,10 @@ const CommercialTraction = () => {
             </div>
           </div>
 
-          {/* Our Growth Strategy section */}
+          {/* Growth Phases section */}
           <div className="bg-white/5 backdrop-blur-sm rounded-xl border border-white/10 overflow-hidden">
             <div className="p-6 md:p-8">
-              <h4 className="text-2xl font-bold mb-6 text-white">Our Growth Strategy</h4>
+              <h4 className="text-2xl font-bold mb-6 text-white">Strategic Growth Phases</h4>
               
               <div className="grid grid-cols-1 lg:grid-cols-3 gap-6">
                 {growthPhases.map((phase, index) => (
