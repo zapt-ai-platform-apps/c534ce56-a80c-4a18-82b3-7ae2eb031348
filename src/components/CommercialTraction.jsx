@@ -65,7 +65,7 @@ const CommercialTraction = () => {
                 </div>
                 
                 <p>
-                  <strong className="text-white">Transformative platforms emerge when technology becomes simple to use.</strong> We'll follow the pattern of other revolutions in publishing, video, and photography.
+                  <strong className="text-white">Transformative platforms emerge when technology becomes simple to use.</strong>
                 </p>
               </div>
             </div>
