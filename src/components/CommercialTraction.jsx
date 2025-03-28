@@ -8,30 +8,6 @@ const CommercialTraction = () => {
     triggerOnce: true,
   });
 
-  // Updated growth principles with concise descriptions
-  const growthPrinciples = [
-    {
-      title: "Content Demonstration",
-      icon: "🎬",
-      description: "Creating videos that showcase building real-world applications with our platform."
-    },
-    {
-      title: "Multi-Platform Approach",
-      icon: "📱",
-      description: "Distributing content across YouTube (demos), Twitter/X (clips), and LinkedIn (business focus)."
-    },
-    {
-      title: "Audience-Led Iteration",
-      icon: "🔄",
-      description: "Creating follow-up content based on viewer engagement and direct feedback."
-    },
-    {
-      title: "Value-First Showcasing",
-      icon: "💎",
-      description: "Letting the product capabilities speak through authentic demonstration."
-    }
-  ];
-
   // Growth phases data - more concise
   const growthPhases = [
     {
@@ -134,29 +110,6 @@ const CommercialTraction = () => {
                 </ul>
               </div>
             </div>
-          </div>
-
-          {/* Growth principles grid - More Concise */}
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-10">
-            {growthPrinciples.map((principle, index) => (
-              <motion.div 
-                key={index}
-                className="bg-white/5 backdrop-blur-sm p-6 rounded-xl border border-white/10 hover-3d"
-                initial={{ opacity: 0, y: 20 }}
-                animate={inView ? { opacity: 1, y: 0 } : { opacity: 0, y: 20 }}
-                transition={{ duration: 0.5, delay: 0.1 * index }}
-              >
-                <div className="flex flex-col sm:flex-row items-center sm:items-start text-center sm:text-left gap-4">
-                  <div className="flex-shrink-0 w-12 h-12 rounded-xl bg-primary-500/20 flex items-center justify-center text-2xl mb-2 sm:mb-0">
-                    {principle.icon}
-                  </div>
-                  <div>
-                    <h4 className="text-xl font-bold mb-2 text-white">{principle.title}</h4>
-                    <p className="text-gray-300">{principle.description}</p>
-                  </div>
-                </div>
-              </motion.div>
-            ))}
           </div>
 
           {/* Growth Phases section - More Concise */}
