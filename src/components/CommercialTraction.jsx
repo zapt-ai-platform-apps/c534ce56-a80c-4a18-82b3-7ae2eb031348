@@ -36,35 +36,7 @@ const CommercialTraction = () => {
                   Major technology revolutions happen when powerful tools become accessible to everyone. ZAPT evolves based on community feedback and usage patterns.
                 </p>
                 
-                <div className="bg-white/5 backdrop-blur-sm p-4 md:p-6 rounded-lg border border-primary-500/20 my-6">
-                  <p className="mb-2">
-                    <strong className="text-white">Our approach is user-led and community-driven.</strong>
-                  </p>
-                  <ul className="space-y-3">
-                    <li className="flex items-start">
-                      <div className="flex-shrink-0 h-6 w-6 rounded-full bg-primary-500/20 flex items-center justify-center mr-3 mt-0.5">
-                        <svg className="h-4 w-4 text-primary-300" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
-                        </svg>
-                      </div>
-                      <div className="text-gray-300">
-                        <strong className="text-white">User-Defined Innovation</strong> - Our roadmap follows how people use our platform
-                      </div>
-                    </li>
-                    <li className="flex items-start">
-                      <div className="flex-shrink-0 h-6 w-6 rounded-full bg-primary-500/20 flex items-center justify-center mr-3 mt-0.5">
-                        <svg className="h-4 w-4 text-primary-300" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
-                        </svg>
-                      </div>
-                      <div className="text-gray-300">
-                        <strong className="text-white">Organic Growth</strong> - Word-of-mouth and user satisfaction drive expansion
-                      </div>
-                    </li>
-                  </ul>
-                </div>
-                
-                <p>
+                <p className="mt-4">
                   <strong className="text-white">Transformative platforms emerge when technology becomes simple to use.</strong>
                 </p>
               </div>
@@ -79,7 +51,7 @@ const CommercialTraction = () => {
                         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M15 10l4.553-2.276A1 1 0 0121 8.618v6.764a1 1 0 01-1.447.894L15 14M5 18h8a2 2 0 002-2V8a2 2 0 00-2-2H5a2 2 0 00-2 2v8a2 2 0 002 2z" />
                       </svg>
                     </div>
-                    <h4 className="text-xl font-bold mb-2 text-white">Our Strategy</h4>
+                    <h4 className="text-xl font-bold mb-2 text-white">Our Growth Strategy</h4>
                     <p className="text-gray-400 text-sm">We democratize technology access</p>
                   </div>
                   
