@@ -94,7 +94,7 @@ const CommercialTraction = () => {
             </div>
           </div>
 
-          {/* Accessibility principles grid */}
+          {/* Accessibility principles grid - IMPROVED FOR MOBILE */}
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-10">
             {accessibilityPrinciples.map((principle, index) => (
               <motion.div 
@@ -104,8 +104,8 @@ const CommercialTraction = () => {
                 animate={inView ? { opacity: 1, y: 0 } : { opacity: 0, y: 20 }}
                 transition={{ duration: 0.5, delay: 0.1 * index }}
               >
-                <div className="flex items-start gap-4">
-                  <div className="flex-shrink-0 w-12 h-12 rounded-xl bg-primary-500/20 flex items-center justify-center text-2xl">
+                <div className="flex flex-col sm:flex-row items-center sm:items-start text-center sm:text-left gap-4">
+                  <div className="flex-shrink-0 w-12 h-12 rounded-xl bg-primary-500/20 flex items-center justify-center text-2xl mb-2 sm:mb-0">
                     {principle.icon}
                   </div>
                   <div>
