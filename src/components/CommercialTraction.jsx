@@ -8,49 +8,52 @@ const CommercialTraction = () => {
     triggerOnce: true,
   });
 
-  // New data structure for growth principles
+  // Updated growth principles with more specific approaches
   const growthPrinciples = [
     {
-      title: "Simplified Creation",
-      icon: "🔮",
-      description: "We're removing technical barriers to app creation, making powerful development tools accessible to everyone regardless of their coding background."
-    },
-    {
-      title: "Universal Design",
-      icon: "🌐",
-      description: "Our platform ensures apps work across all devices and user contexts, democratizing not just creation but also distribution and access."
-    },
-    {
-      title: "Community Power",
+      title: "User-Led Development",
       icon: "👥",
-      description: "By enabling diverse creators, we're fostering an ecosystem where innovation comes from all perspectives, not just technical experts."
+      description: "We listen first and build second. Every feature development begins with direct conversations with users to ensure we're solving real problems."
     },
     {
-      title: "Business Acceleration",
-      icon: "⚡️",
-      description: "Organizations can prototype, test, and deploy ideas in days rather than months, dramatically reducing time-to-market."
+      title: "Reduce Learning Curve",
+      icon: "🚪",
+      description: "We're systematically identifying and eliminating technical barriers in the creation process, making each step intuitive for non-technical users."
+    },
+    {
+      title: "Iterative Feedback Loops",
+      icon: "🔄",
+      description: "We implement rapid development cycles with users testing early versions, providing feedback, and seeing their suggestions incorporated quickly."
+    },
+    {
+      title: "Expand Use Cases",
+      icon: "🌱",
+      description: "Rather than prescribing how ZAPT should be used, we're observing how early adopters use our platform and enhancing those pathways."
     }
   ];
 
-  // Growth phases data
+  // Growth phases data - made more specific
   const growthPhases = [
     {
       number: "01",
       title: "Foundation",
       description: "Build intuitive platform that removes technical barriers",
-      status: "Completed"
+      status: "Completed",
+      details: "We've created the core AI interface that translates user descriptions into functional code and enables one-click deployment."
     },
     {
       number: "02",
-      title: "Expansion",
-      description: "Scale to serve diverse use cases across industries",
-      status: "In Progress"
+      title: "Community Building",
+      description: "Cultivate user community and gather implementation feedback",
+      status: "In Progress",
+      details: "We're establishing direct communication channels with early users, hosting feedback sessions, and prioritizing improvements based on user input."
     },
     {
       number: "03",
-      title: "Ecosystem",
-      description: "Foster community of creators sharing apps and components",
-      status: "Upcoming"
+      title: "Capability Expansion",
+      description: "Extend functionality based on observed user needs",
+      status: "Upcoming",
+      details: "We'll introduce new capabilities based on patterns identified in early usage, focusing on features that enable users to build more sophisticated apps."
     }
   ];
 
@@ -59,11 +62,11 @@ const CommercialTraction = () => {
       <div className="container-custom">
         <div className="text-center mb-12">
           <span className="inline-block px-4 py-1 bg-white/5 backdrop-blur-sm rounded-full text-primary-300 text-sm font-medium mb-4 border border-primary-500/20">
-            Our Market Approach
+            Our Approach
           </span>
           <h2 className="heading-lg mb-4 text-white">Our Growth Strategy</h2>
           <p className="text-lg text-gray-300 max-w-3xl mx-auto">
-            Creating a world where anyone can build powerful digital solutions
+            Building a platform where users lead the way
           </p>
         </div>
 
@@ -74,7 +77,137 @@ const CommercialTraction = () => {
           animate={inView ? { opacity: 1, y: 0 } : { opacity: 0, y: 20 }}
           transition={{ duration: 0.7 }}
         >
-          {/* Growth principles grid - Improved for mobile */}
+          {/* User-Led Philosophy Section - NEW */}
+          <div className="bg-white/5 backdrop-blur-sm p-6 rounded-xl border border-white/10 mb-10">
+            <h3 className="text-xl font-bold mb-4 text-white">Our User-Led Philosophy</h3>
+            <p className="text-gray-300 mb-6">
+              Instead of predetermining a roadmap, we're letting actual user behavior guide our development. 
+              This means our growth will be organic, authentic, and directly responsive to real user needs rather 
+              than our assumptions about what users might want.
+            </p>
+            
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+              <div className="bg-white/5 backdrop-blur-sm p-5 rounded-lg border border-white/10">
+                <h4 className="text-lg font-bold mb-3 text-white">What This Looks Like in Practice:</h4>
+                <ul className="space-y-3">
+                  <li className="flex items-start">
+                    <svg className="w-5 h-5 text-primary-300 mt-0.5 flex-shrink-0 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
+                    </svg>
+                    <span className="text-gray-300">Direct user interviews before adding new features</span>
+                  </li>
+                  <li className="flex items-start">
+                    <svg className="w-5 h-5 text-primary-300 mt-0.5 flex-shrink-0 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
+                    </svg>
+                    <span className="text-gray-300">Analyzing how users actually interact with the platform</span>
+                  </li>
+                  <li className="flex items-start">
+                    <svg className="w-5 h-5 text-primary-300 mt-0.5 flex-shrink-0 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
+                    </svg>
+                    <span className="text-gray-300">Weekly implementation of user-suggested improvements</span>
+                  </li>
+                </ul>
+              </div>
+              
+              <div className="bg-white/5 backdrop-blur-sm p-5 rounded-lg border border-white/10">
+                <h4 className="text-lg font-bold mb-3 text-white">What We're Not Doing:</h4>
+                <ul className="space-y-3">
+                  <li className="flex items-start">
+                    <svg className="w-5 h-5 text-red-400 mt-0.5 flex-shrink-0 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M6 18L18 6M6 6l12 12" />
+                    </svg>
+                    <span className="text-gray-300">Rigid multi-year roadmaps that ignore user feedback</span>
+                  </li>
+                  <li className="flex items-start">
+                    <svg className="w-5 h-5 text-red-400 mt-0.5 flex-shrink-0 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M6 18L18 6M6 6l12 12" />
+                    </svg>
+                    <span className="text-gray-300">Feature development based solely on competitor analysis</span>
+                  </li>
+                  <li className="flex items-start">
+                    <svg className="w-5 h-5 text-red-400 mt-0.5 flex-shrink-0 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M6 18L18 6M6 6l12 12" />
+                    </svg>
+                    <span className="text-gray-300">Prioritizing flashy features over usable functionality</span>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+          {/* Action Plans - NEW */}
+          <div className="bg-white/5 backdrop-blur-sm p-6 rounded-xl border border-white/10 mb-10">
+            <h3 className="text-xl font-bold mb-4 text-white">Specific Action Plans</h3>
+            
+            <div className="grid grid-cols-1 lg:grid-cols-3 gap-6">
+              <div className="bg-white/5 backdrop-blur-sm p-5 rounded-lg border border-white/10">
+                <div className="mb-4 w-12 h-12 rounded-lg bg-primary-500/20 flex items-center justify-center text-xl">
+                  🎯
+                </div>
+                <h4 className="text-lg font-bold mb-2 text-white">User Research</h4>
+                <ul className="space-y-2 text-gray-300">
+                  <li className="flex items-start">
+                    <span className="text-xs bg-primary-500/20 text-primary-300 p-1 rounded mr-2 mt-0.5">1</span>
+                    <span>Establish user feedback channels and analytics tracking</span>
+                  </li>
+                  <li className="flex items-start">
+                    <span className="text-xs bg-primary-500/20 text-primary-300 p-1 rounded mr-2 mt-0.5">2</span>
+                    <span>Conduct weekly user interviews with early adopters</span>
+                  </li>
+                  <li className="flex items-start">
+                    <span className="text-xs bg-primary-500/20 text-primary-300 p-1 rounded mr-2 mt-0.5">3</span>
+                    <span>Analyze usage patterns to identify improvement areas</span>
+                  </li>
+                </ul>
+              </div>
+              
+              <div className="bg-white/5 backdrop-blur-sm p-5 rounded-lg border border-white/10">
+                <div className="mb-4 w-12 h-12 rounded-lg bg-primary-500/20 flex items-center justify-center text-xl">
+                  🛠️
+                </div>
+                <h4 className="text-lg font-bold mb-2 text-white">Platform Enhancement</h4>
+                <ul className="space-y-2 text-gray-300">
+                  <li className="flex items-start">
+                    <span className="text-xs bg-primary-500/20 text-primary-300 p-1 rounded mr-2 mt-0.5">1</span>
+                    <span>Weekly platform updates based on user feedback</span>
+                  </li>
+                  <li className="flex items-start">
+                    <span className="text-xs bg-primary-500/20 text-primary-300 p-1 rounded mr-2 mt-0.5">2</span>
+                    <span>Eliminate identified friction points in creation process</span>
+                  </li>
+                  <li className="flex items-start">
+                    <span className="text-xs bg-primary-500/20 text-primary-300 p-1 rounded mr-2 mt-0.5">3</span>
+                    <span>Simplify technical processes without removing capability</span>
+                  </li>
+                </ul>
+              </div>
+              
+              <div className="bg-white/5 backdrop-blur-sm p-5 rounded-lg border border-white/10">
+                <div className="mb-4 w-12 h-12 rounded-lg bg-primary-500/20 flex items-center justify-center text-xl">
+                  👨‍👩‍👧‍👦
+                </div>
+                <h4 className="text-lg font-bold mb-2 text-white">Community Building</h4>
+                <ul className="space-y-2 text-gray-300">
+                  <li className="flex items-start">
+                    <span className="text-xs bg-primary-500/20 text-primary-300 p-1 rounded mr-2 mt-0.5">1</span>
+                    <span>Create spaces for users to share their created apps</span>
+                  </li>
+                  <li className="flex items-start">
+                    <span className="text-xs bg-primary-500/20 text-primary-300 p-1 rounded mr-2 mt-0.5">2</span>
+                    <span>Facilitate knowledge sharing between creators</span>
+                  </li>
+                  <li className="flex items-start">
+                    <span className="text-xs bg-primary-500/20 text-primary-300 p-1 rounded mr-2 mt-0.5">3</span>
+                    <span>Highlight successful use cases to inspire others</span>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+          {/* Growth principles grid - Updated to be more specific */}
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-10">
             {growthPrinciples.map((principle, index) => (
               <motion.div 
@@ -97,102 +230,10 @@ const CommercialTraction = () => {
             ))}
           </div>
 
-          {/* Impact visualization */}
-          <div className="bg-gradient-to-r from-primary-500/10 to-secondary-500/10 p-6 rounded-xl border border-white/10 mb-10">
-            <h4 className="text-xl font-bold mb-4 text-white text-center">Market Transformation</h4>
-            
-            <div className="flex flex-col md:flex-row gap-6 items-center justify-center">
-              <div className="bg-white/5 backdrop-blur-sm p-5 rounded-lg border border-white/10 md:w-1/3">
-                <div className="text-center">
-                  <div className="text-3xl mb-2">🔒</div>
-                  <h5 className="font-bold text-white mb-2">Yesterday</h5>
-                  <ul className="text-sm text-gray-400 space-y-2">
-                    <li className="flex items-center">
-                      <svg className="w-4 h-4 mr-2 text-red-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M6 18L18 6M6 6l12 12" />
-                      </svg>
-                      Technical expertise required
-                    </li>
-                    <li className="flex items-center">
-                      <svg className="w-4 h-4 mr-2 text-red-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M6 18L18 6M6 6l12 12" />
-                      </svg>
-                      Months of development time
-                    </li>
-                    <li className="flex items-center">
-                      <svg className="w-4 h-4 mr-2 text-red-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M6 18L18 6M6 6l12 12" />
-                      </svg>
-                      $10k+ investment required
-                    </li>
-                    <li className="flex items-center">
-                      <svg className="w-4 h-4 mr-2 text-red-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M6 18L18 6M6 6l12 12" />
-                      </svg>
-                      Limited by available talent
-                    </li>
-                  </ul>
-                </div>
-              </div>
-              
-              <div className="flex items-center">
-                <motion.div
-                  initial={{ scale: 0.8 }}
-                  animate={inView ? { scale: 1 } : { scale: 0.8 }}
-                  transition={{ 
-                    duration: 0.5,
-                    type: "spring",
-                    stiffness: 100
-                  }}
-                >
-                  <div className="relative w-16 h-16 flex items-center justify-center">
-                    <div className="absolute inset-0 bg-gradient-to-r from-primary-500 to-secondary-500 rounded-full opacity-20 animate-pulse"></div>
-                    <svg className="w-8 h-8 text-primary-300" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M14 5l7 7m0 0l-7 7m7-7H3" />
-                    </svg>
-                  </div>
-                </motion.div>
-              </div>
-              
-              <div className="bg-white/5 backdrop-blur-sm p-5 rounded-lg border border-primary-500/30 md:w-1/3">
-                <div className="text-center">
-                  <div className="text-3xl mb-2">🚀</div>
-                  <h5 className="font-bold text-primary-300 mb-2">With ZAPT</h5>
-                  <ul className="text-sm text-gray-300 space-y-2">
-                    <li className="flex items-center">
-                      <svg className="w-4 h-4 mr-2 text-green-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
-                      </svg>
-                      Just describe what you want
-                    </li>
-                    <li className="flex items-center">
-                      <svg className="w-4 h-4 mr-2 text-green-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
-                      </svg>
-                      Apps created in minutes
-                    </li>
-                    <li className="flex items-center">
-                      <svg className="w-4 h-4 mr-2 text-green-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
-                      </svg>
-                      Accessible pricing for all
-                    </li>
-                    <li className="flex items-center">
-                      <svg className="w-4 h-4 mr-2 text-green-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
-                      </svg>
-                      Anyone can create & innovate
-                    </li>
-                  </ul>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          {/* Growth Phases section */}
+          {/* Growth Phases section - Enhanced with more specifics */}
           <div className="bg-white/5 backdrop-blur-sm rounded-xl border border-white/10 overflow-hidden">
             <div className="p-6 md:p-8">
-              <h4 className="text-2xl font-bold mb-6 text-white">Strategic Growth Phases</h4>
+              <h4 className="text-2xl font-bold mb-6 text-white">Growth Implementation Phases</h4>
               
               <div className="grid grid-cols-1 lg:grid-cols-3 gap-6">
                 {growthPhases.map((phase, index) => (
@@ -207,7 +248,8 @@ const CommercialTraction = () => {
                       <div className="absolute -top-4 -right-4 text-5xl font-bold text-primary-500/10">{phase.number}</div>
                       <div className="mt-3">
                         <h5 className="text-xl font-bold mb-2 text-white">{phase.title}</h5>
-                        <p className="text-gray-300 mb-4">{phase.description}</p>
+                        <p className="text-gray-300 mb-3">{phase.description}</p>
+                        <p className="text-sm text-gray-400 mb-4">{phase.details}</p>
                         <div className={`inline-block px-3 py-1 rounded-full text-xs font-medium ${
                           phase.status === 'Completed' 
                             ? 'bg-green-500/20 text-green-300' 
@@ -249,17 +291,30 @@ const CommercialTraction = () => {
             <div className="border-t border-white/10 p-6 md:p-8 bg-gradient-to-r from-primary-500/5 to-secondary-500/5">
               <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
                 <div className="col-span-1 md:col-span-2">
-                  <h5 className="text-xl font-bold mb-4 text-white">Our Unfair Advantage</h5>
+                  <h5 className="text-xl font-bold mb-4 text-white">Measuring Success</h5>
                   <p className="text-gray-300 mb-4">
-                    While others focus on incremental improvements, we've reimagined the entire app creation process from first principles.
-                    Our AI-first approach eliminates traditional bottlenecks and creates a multiplicative rather than additive improvement.
+                    Rather than focusing only on user acquisition metrics, we're measuring success through:
                   </p>
-                  <div className="flex flex-wrap gap-2">
-                    <span className="px-3 py-1 rounded-full text-xs font-medium bg-white/10 text-gray-300">AI-Powered</span>
-                    <span className="px-3 py-1 rounded-full text-xs font-medium bg-white/10 text-gray-300">Zero Learning Curve</span>
-                    <span className="px-3 py-1 rounded-full text-xs font-medium bg-white/10 text-gray-300">Rapid Iteration</span>
-                    <span className="px-3 py-1 rounded-full text-xs font-medium bg-white/10 text-gray-300">Full-Stack Solution</span>
-                  </div>
+                  <ul className="space-y-2 mb-4">
+                    <li className="flex items-start">
+                      <svg className="w-5 h-5 text-primary-300 mt-0.5 flex-shrink-0 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
+                      </svg>
+                      <span className="text-gray-300">App completion rate - how many started apps are successfully deployed</span>
+                    </li>
+                    <li className="flex items-start">
+                      <svg className="w-5 h-5 text-primary-300 mt-0.5 flex-shrink-0 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
+                      </svg>
+                      <span className="text-gray-300">Creation time - how quickly users can go from idea to working app</span>
+                    </li>
+                    <li className="flex items-start">
+                      <svg className="w-5 h-5 text-primary-300 mt-0.5 flex-shrink-0 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
+                      </svg>
+                      <span className="text-gray-300">Non-technical usage - percentage of users with no prior coding experience</span>
+                    </li>
+                  </ul>
                 </div>
                 <div className="col-span-1 flex items-center justify-center">
                   <div className="p-6 bg-white/5 backdrop-blur-sm rounded-full w-32 h-32 flex items-center justify-center">
@@ -274,7 +329,7 @@ const CommercialTraction = () => {
                         repeatType: "loop"
                       }}
                     >
-                      <div className="text-5xl">💎</div>
+                      <div className="text-5xl">⚡️</div>
                     </motion.div>
                   </div>
                 </div>
