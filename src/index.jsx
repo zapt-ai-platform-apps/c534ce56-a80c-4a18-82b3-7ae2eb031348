@@ -18,7 +18,7 @@ Sentry.init({
 // Add PWA support
 window.progressierAppRuntimeSettings = {
   uid: import.meta.env.VITE_PUBLIC_APP_ID,
-  icon512: "https://supabase.zapt.ai/storage/v1/render/image/public/icons/c534ce56-a80c-4a18-82b3-7ae2eb031348/0f2d782c-52c5-4afd-afca-d53df2fed964.png?width=512&height=512",
+  icon512: "https://supabase.zapt.ai/storage/v1/render/image/public/icons/c534ce56-a80c-4a18-82b3-7ae2eb031348/e6fef3bb-0416-439e-8371-0d401e522b1d.png?width=512&height=512",
   name: 'Investor Update',
   shortName: 'Investor Upd',
 };
