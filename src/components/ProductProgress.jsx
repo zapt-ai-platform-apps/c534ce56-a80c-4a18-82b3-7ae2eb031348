@@ -28,8 +28,8 @@ const ProductProgress = () => {
           animate={inView ? { opacity: 1, y: 0 } : { opacity: 0, y: 20 }}
           transition={{ duration: 0.7 }}
         >
-          <div className="absolute -top-24 -right-24 w-64 h-64 bg-primary-500/20 rounded-full blur-[100px]"></div>
-          <div className="absolute -bottom-24 -left-24 w-64 h-64 bg-secondary-500/20 rounded-full blur-[100px]"></div>
+          <div className="absolute -top-24 -right-24 w-64 h-64 bg-primary-500/20 rounded-full blur-3xl"></div>
+          <div className="absolute -bottom-24 -left-24 w-64 h-64 bg-secondary-500/20 rounded-full blur-3xl"></div>
           
           <div className="flex flex-col relative">
             <div className="w-full">
@@ -89,7 +89,7 @@ const ProductProgress = () => {
                 <div className="bg-primary-500/10 p-4 rounded-lg border border-primary-500/20 w-full md:max-w-md">
                   <h4 className="font-bold text-white mb-2 text-center">Ready for Everyone</h4>
                   <p className="text-sm text-gray-300 text-center">
-                    Just like WordPress revolutionized website creation, ZAPT is democratizing app development—no coding knowledge required.
+                    ZAPT is democratizing app development by making it accessible to everyone—no coding knowledge required.
                   </p>
                   <div className="mt-4 flex justify-center">
                     <div className="px-3 py-1 bg-primary-500/20 text-primary-300 text-xs rounded-full">
