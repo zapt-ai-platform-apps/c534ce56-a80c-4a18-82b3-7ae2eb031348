@@ -37,10 +37,10 @@ const CommercialTraction = () => {
                 </p>
                 
                 <div className="bg-white/5 backdrop-blur-sm p-4 md:p-6 rounded-lg border border-primary-500/20 my-6">
-                  <p className="mb-4">
-                    <strong className="text-white">Our approach is user-led and community-driven.</strong> We provide the tools and let users show us what's possible.
+                  <p className="mb-2">
+                    <strong className="text-white">Our approach is user-led and community-driven.</strong>
                   </p>
-                  <ul className="space-y-4">
+                  <ul className="space-y-3">
                     <li className="flex items-start">
                       <div className="flex-shrink-0 h-6 w-6 rounded-full bg-primary-500/20 flex items-center justify-center mr-3 mt-0.5">
                         <svg className="h-4 w-4 text-primary-300" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
@@ -61,33 +61,12 @@ const CommercialTraction = () => {
                         <strong className="text-white">Organic Growth</strong> - Word-of-mouth and user satisfaction drive expansion
                       </div>
                     </li>
-                    <li className="flex items-start">
-                      <div className="flex-shrink-0 h-6 w-6 rounded-full bg-primary-500/20 flex items-center justify-center mr-3 mt-0.5">
-                        <svg className="h-4 w-4 text-primary-300" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
-                        </svg>
-                      </div>
-                      <div className="text-gray-300">
-                        <strong className="text-white">Market-Led Development</strong> - Building features based on real usage and needs
-                      </div>
-                    </li>
                   </ul>
                 </div>
                 
                 <p>
-                  <strong className="text-white">Transformative platforms emerge when technology becomes simple to use.</strong> We create the canvas and users paint the picture, often creating applications we never imagined.
+                  <strong className="text-white">Transformative platforms emerge when technology becomes simple to use.</strong> This follows the pattern of other revolutions in publishing, video, and photography.
                 </p>
-                
-                <p>
-                  This democratization follows the pattern of other revolutions:
-                </p>
-                
-                <ul className="space-y-2 mt-4 text-gray-300">
-                  <li>Publishing (blogs made everyone a potential author)</li>
-                  <li>Video (platforms made everyone a potential filmmaker)</li>
-                  <li>Photography (social sharing made everyone a potential photographer)</li>
-                  <li>And now with ZAPT: Apps (making everyone a potential app creator)</li>
-                </ul>
               </div>
             </div>
             
@@ -125,19 +104,6 @@ const CommercialTraction = () => {
                       </div>
                       <p className="text-sm text-gray-300">Scale with user satisfaction</p>
                     </div>
-                    
-                    <div className="flex items-center gap-3">
-                      <div className="flex-shrink-0 w-10 h-10 rounded-full bg-primary-500/20 flex items-center justify-center text-xs font-medium text-white">
-                        4
-                      </div>
-                      <p className="text-sm text-gray-300">Expand through word-of-mouth</p>
-                    </div>
-                    
-                    <div className="pt-4 mt-4 border-t border-white/10">
-                      <p className="text-sm text-gray-400 italic">
-                        "The true power comes from empowering creators and following their lead."
-                      </p>
-                    </div>
                   </div>
                 </div>
               </div>
@@ -146,12 +112,12 @@ const CommercialTraction = () => {
           
           <div className="mt-10 pt-8 border-t border-white/10">
             <h4 className="text-xl font-bold mb-6 text-white">The Power of Technology Democratization</h4>
-            <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
+            <div className="grid grid-cols-1 sm:grid-cols-3 gap-6">
               <div className="bg-white/5 backdrop-blur-sm p-6 rounded-lg border border-white/10 hover-3d">
                 <div className="text-3xl mb-4">🌱</div>
                 <h5 className="text-lg font-bold mb-2 text-white">Lower Barriers</h5>
                 <p className="text-gray-400">
-                  By removing technical complexity, we allow anyone with an idea to bring it to life regardless of their background.
+                  Anyone with an idea can bring it to life regardless of technical background.
                 </p>
               </div>
               
@@ -159,7 +125,7 @@ const CommercialTraction = () => {
                 <div className="text-3xl mb-4">💡</div>
                 <h5 className="text-lg font-bold mb-2 text-white">Diverse Innovation</h5>
                 <p className="text-gray-400">
-                  When technology is accessible to all, innovation comes from diverse perspectives, not just technical experts.
+                  Innovation comes from diverse perspectives, not just technical experts.
                 </p>
               </div>
               
@@ -167,7 +133,7 @@ const CommercialTraction = () => {
                 <div className="text-3xl mb-4">🚀</div>
                 <h5 className="text-lg font-bold mb-2 text-white">Mass Market Impact</h5>
                 <p className="text-gray-400">
-                  By making app creation as easy as using a social media platform, we can reach and empower billions of potential creators.
+                  Making app creation as easy as using social media reaches billions of potential creators.
                 </p>
               </div>
             </div>

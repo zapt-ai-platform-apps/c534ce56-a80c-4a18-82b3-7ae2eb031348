@@ -17,11 +17,6 @@ const visionPoints = [
     title: "Simplicity",
     icon: "🎯",
     description: "Complete beginners can create powerful apps by simply describing what they want in plain English."
-  },
-  {
-    title: "Excitement",
-    icon: "⚡",
-    description: "Early users are already creating apps for purposes we never imagined possible."
   }
 ];
 
@@ -65,7 +60,7 @@ const GrowthMetrics = () => {
 
         <motion.div
           ref={ref}
-          className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6"
+          className="grid grid-cols-1 sm:grid-cols-3 gap-6"
           variants={containerVariants}
           initial="hidden"
           animate={inView ? "visible" : "hidden"}
