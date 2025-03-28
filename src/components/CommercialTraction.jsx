@@ -13,11 +13,11 @@ const CommercialTraction = () => {
       <div className="container-custom">
         <div className="text-center mb-12">
           <span className="inline-block px-4 py-1 bg-white/5 backdrop-blur-sm rounded-full text-primary-300 text-sm font-medium mb-4 border border-primary-500/20">
-            Our Market Approach
+            Our Future Market Approach
           </span>
           <h2 className="heading-lg mb-4 text-white">The Democratization Strategy</h2>
           <p className="text-lg text-gray-300 max-w-3xl mx-auto">
-            Making powerful technology accessible to everyone
+            Our plan to make powerful technology accessible to everyone
           </p>
         </div>
 
@@ -33,12 +33,12 @@ const CommercialTraction = () => {
               <h3 className="text-2xl font-bold mb-6 text-white">Innovation Through Accessibility</h3>
               <div className="prose prose-lg text-gray-300 max-w-none mb-6">
                 <p>
-                  Major technology revolutions happen when powerful tools become accessible to everyone. ZAPT evolves based on community feedback and usage patterns.
+                  Major technology revolutions happen when powerful tools become accessible to everyone. ZAPT will evolve based on community feedback and usage patterns.
                 </p>
                 
                 <div className="bg-white/5 backdrop-blur-sm p-4 md:p-6 rounded-lg border border-primary-500/20 my-6">
                   <p className="mb-2">
-                    <strong className="text-white">Our approach is user-led and community-driven.</strong>
+                    <strong className="text-white">Our approach will be user-led and community-driven.</strong>
                   </p>
                   <ul className="space-y-3">
                     <li className="flex items-start">
@@ -48,7 +48,7 @@ const CommercialTraction = () => {
                         </svg>
                       </div>
                       <div className="text-gray-300">
-                        <strong className="text-white">User-Defined Innovation</strong> - Our roadmap follows how people use our platform
+                        <strong className="text-white">User-Defined Innovation</strong> - Our roadmap will follow how people use our platform
                       </div>
                     </li>
                     <li className="flex items-start">
@@ -58,14 +58,14 @@ const CommercialTraction = () => {
                         </svg>
                       </div>
                       <div className="text-gray-300">
-                        <strong className="text-white">Organic Growth</strong> - Word-of-mouth and user satisfaction drive expansion
+                        <strong className="text-white">Organic Growth</strong> - Word-of-mouth and user satisfaction will drive expansion
                       </div>
                     </li>
                   </ul>
                 </div>
                 
                 <p>
-                  <strong className="text-white">Transformative platforms emerge when technology becomes simple to use.</strong> This follows the pattern of other revolutions in publishing, video, and photography.
+                  <strong className="text-white">Transformative platforms emerge when technology becomes simple to use.</strong> We'll follow the pattern of other revolutions in publishing, video, and photography.
                 </p>
               </div>
             </div>
@@ -79,8 +79,8 @@ const CommercialTraction = () => {
                         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M15 10l4.553-2.276A1 1 0 0121 8.618v6.764a1 1 0 01-1.447.894L15 14M5 18h8a2 2 0 002-2V8a2 2 0 00-2-2H5a2 2 0 00-2 2v8a2 2 0 002 2z" />
                       </svg>
                     </div>
-                    <h4 className="text-xl font-bold mb-2 text-white">Our Growth Strategy</h4>
-                    <p className="text-gray-400 text-sm">Democratizing technology access</p>
+                    <h4 className="text-xl font-bold mb-2 text-white">Our Future Growth Strategy</h4>
+                    <p className="text-gray-400 text-sm">We'll democratize technology access</p>
                   </div>
                   
                   <div className="space-y-4">
@@ -117,7 +117,7 @@ const CommercialTraction = () => {
                 <div className="text-3xl mb-4">🌱</div>
                 <h5 className="text-lg font-bold mb-2 text-white">Lower Barriers</h5>
                 <p className="text-gray-400">
-                  Anyone with an idea can bring it to life regardless of technical background.
+                  Anyone with an idea will be able to bring it to life regardless of technical background.
                 </p>
               </div>
               
@@ -125,7 +125,7 @@ const CommercialTraction = () => {
                 <div className="text-3xl mb-4">💡</div>
                 <h5 className="text-lg font-bold mb-2 text-white">Diverse Innovation</h5>
                 <p className="text-gray-400">
-                  Innovation comes from diverse perspectives, not just technical experts.
+                  Innovation will come from diverse perspectives, not just technical experts.
                 </p>
               </div>
               
@@ -133,7 +133,7 @@ const CommercialTraction = () => {
                 <div className="text-3xl mb-4">🚀</div>
                 <h5 className="text-lg font-bold mb-2 text-white">Mass Market Impact</h5>
                 <p className="text-gray-400">
-                  Making app creation as easy as using social media reaches billions of potential creators.
+                  Making app creation as easy as using social media will reach billions of potential creators.
                 </p>
               </div>
             </div>
